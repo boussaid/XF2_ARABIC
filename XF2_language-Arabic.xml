@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<language title="Arabic" date_format="j F Y" time_format="H:i" currency_format="{value} {symbol}" week_start="0" decimal_point="." thousands_separator="," label_separator="" comma_separator="" ellipsis="" parenthesis_open="" parenthesis_close="" language_code="ar-AR" text_direction="RTL" addon_id="XF" export_version="2">
+<language title="Arabic" date_format="j F Y" time_format="H:i" currency_format="{value} {symbol}" week_start="0" decimal_point="." thousands_separator="," label_separator="" comma_separator="" ellipsis="" parenthesis_open="" parenthesis_close="" language_code="ar-AR" text_direction="RTL" export_version="2">
   <phrase title="1_day_ago" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[منذ يوم مضى]]></phrase>
   <phrase title="1_month_ago" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[منذ شهر مضى]]></phrase>
   <phrase title="1_time" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[مرة واحدة]]></phrase>
@@ -379,6 +379,7 @@
   <phrase title="allow_users_to" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[السماح للمستخدمين بـ]]></phrase>
   <phrase title="allow_voters_to_change_their_votes" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[السماح للمصوتين بتعديل تصويتاتهم]]></phrase>
   <phrase title="allow_x_to_invite_others_to_this_conversation" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[السماح لـ {user} بدعوة آخرين لهذه المحادثة]]></phrase>
+  <phrase title="also_comments_on_profile_post" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[المزيد من التعليقات على مشاركة الملف الشخصي]]></phrase>
   <phrase title="alternatively_use_ip_discouragement" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[بدلا من ذلك، يمكنك استخدام  تجاهل الآي بي]]></phrase>
   <phrase title="analyze" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تحليل]]></phrase>
   <phrase title="analyze_permissions" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تحليل التراخيص]]></phrase>
@@ -596,7 +597,7 @@ code[/CODE]
 <b>ملاحظة:</b> بشكل افتراضي، لا تدعم Braintree عملات متعددة. <b><i>سيتم تجاهل</i></b> قيمة العملة التي قد تحددها للمواد القابلة للشراء.  .<br />
 <br />
 لدعم عملات متعددة، يلزمك إعداد ذلك من خلال <a href="mailto:support@braintreepayments.com">الاتصال بـ Braintree</a> واطلب منهم إنشاء حسابات تجارية متعددة. و هو حساب التاجر الذي يحدد معاملات العملات التي سيتم معالجتها. يجب تحديد حساب التاجر الذي سيتم استخدامه هنا.]]></phrase>
-  <phrase title="braintree_merchant_id" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[معرف Merchant]]></phrase>
+  <phrase title="braintree_merchant_id" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[معرف التاجر]]></phrase>
   <phrase title="braintree_plan_id" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[دعم الفوترة المتكررة مع معرف الخطة التالي]]></phrase>
   <phrase title="braintree_private_key" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[المفتاح السري]]></phrase>
   <phrase title="braintree_public_key" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[المفتاح العمومي]]></phrase>
@@ -678,6 +679,7 @@ code[/CODE]
   <phrase title="comment" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعليق]]></phrase>
   <phrase title="comment_date" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تاريخ التعليق]]></phrase>
   <phrase title="comments" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[التعليقات]]></phrase>
+  <phrase title="comments_on_your_profile_posts_for_other_members" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعليقات على مشاركات ملفك الشخصي للأعضاء الآخرين]]></phrase>
   <phrase title="common_languages" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[اللغات الشائعة]]></phrase>
   <phrase title="compare" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[مقارنة]]></phrase>
   <phrase title="compare_versions" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[مقارنة الإصدارات]]></phrase>
@@ -839,7 +841,9 @@ code[/CODE]
   <phrase title="custom_userfield_criteria" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[معايير حقل المستخدم]]></phrase>
   <phrase title="custom_version" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[إصدار مخصص]]></phrase>
   <phrase title="custom_warning" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تحذير مخصص]]></phrase>
+  <phrase title="customized" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[معدل]]></phrase>
   <phrase title="customized_components" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[مكونات مخصصة]]></phrase>
+  <phrase title="customized_in_parent" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[معدل في الأصل]]></phrase>
   <phrase title="customized_in_version" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[معدل في {version}.]]></phrase>
   <phrase title="customized_style_components" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[مكونات الستايل المخصصة]]></phrase>
   <phrase title="daily" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يوميا]]></phrase>
@@ -919,6 +923,7 @@ code[/CODE]
   <phrase title="demote_user" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تنزيل رتبة المستخدم]]></phrase>
   <phrase title="dependent_upon_show_custom_fields_style_property" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[هذا الحقل سيتم عرضه فقط بمعلومات المستخدم في المشاركات إذا كان خيار ' عرض الحقول المخصصة ' قد تم تفعيله من خصائص الستايل]]></phrase>
   <phrase title="depends_on" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يعتمد على]]></phrase>
+  <phrase title="depends_on_explain" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[إدخال اسم خاصيه هنا سيؤدي إلى تعطيل هذه الخاصية إذا تم تعطيل الخاصية المسمية. يجب ان تكون الخاصية المسمية خاصيه منطقيه في نفس المجموعة مثل هذه الخاصية.]]></phrase>
   <phrase title="depends_on_permission_id" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يعتمد على معرف الترخيص]]></phrase>
   <phrase title="descending" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تنازلي]]></phrase>
   <phrase title="description" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الوصف]]></phrase>
@@ -947,7 +952,9 @@ code[/CODE]
   <phrase title="disabled_user_upgrades" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعطيل ترقيات المستخدمين]]></phrase>
   <phrase title="disabled_user_upgrades_explain" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعطيل ترقيات المستخدم المحددة في حين ان هذه الترقية نشطه. وهذا مفيد إذا كان لديك مستويات من نفس الترقية ولا تريد للأشخاص شراء مستويات متعددة.]]></phrase>
   <phrase title="disallowed_words_in_tags" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[كلمات غير مسموح بها في الوسوم]]></phrase>
+  <phrase title="disallowed_words_in_user_names" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[نص غير مسموح به في أسماء المستخدمين]]></phrase>
   <phrase title="disassociate_x_account" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[إلغاء الحساب {provider}]]></phrase>
+  <phrase title="disassociating_with_all_accounts_cause_password_emailed_x" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[إلغاء الإقتران بكافة الحسابات الخارجية سينتج عنه توليد كلمة مرور لحسابك و سيتم إرسالها لـ {email}.]]></phrase>
   <phrase title="discourage" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تجاهل]]></phrase>
   <phrase title="discourage_users" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تجاهل الأعضاء]]></phrase>
   <phrase title="discouraged" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[متجاهل]]></phrase>
@@ -955,16 +962,19 @@ code[/CODE]
   <phrase title="discouraged_ip_addresses" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[عناوين الـ IP المحبطة و المتجاهلة]]></phrase>
   <phrase title="discouragement_state" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[حالة الردع (التجاهل)]]></phrase>
   <phrase title="dismiss" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[استبعاد]]></phrase>
+  <phrase title="dismiss_notice" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[إستبعاد الملاحظة]]></phrase>
   <phrase title="display_children_in_navigation" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[عرض الفروع في شريط التنقل]]></phrase>
   <phrase title="display_condition" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[شروط العرض]]></phrase>
   <phrase title="display_criteria" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[معايير العرض]]></phrase>
   <phrase title="display_duration_milliseconds" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[مدة العرض (مللي ثانية)]]></phrase>
+  <phrase title="display_html_replacement_when_empty" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[عرض مستبدلات HTML عند الافراغ]]></phrase>
   <phrase title="display_icons_only" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[عرض الرموز فقط]]></phrase>
   <phrase title="display_image" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[عرض الصورة]]></phrase>
   <phrase title="display_in_groups" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[عرض في المجموعات]]></phrase>
   <phrase title="display_in_node_list" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[عرض في قائمة المنتدى]]></phrase>
   <phrase title="display_in_positions" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[عرض في المواضع]]></phrase>
   <phrase title="display_location" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[عرض الموقع]]></phrase>
+  <phrase title="display_node_title_instead_of_navigation_entry_title" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[عرض عنوان المنتدى بدلا من عنوان التنقل المٌدخل]]></phrase>
   <phrase title="display_order" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[ترتيب العرض]]></phrase>
   <phrase title="display_results_as_threads" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[عرض النتائج كمواضيع]]></phrase>
   <phrase title="display_statistics" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[عرض الإحصائيات]]></phrase>
@@ -976,35 +986,116 @@ code[/CODE]
   <phrase title="display_title" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[عنوان العرض]]></phrase>
   <phrase title="display_user_as_staff" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[عرض المستخدم في طاقم الإدارة]]></phrase>
   <phrase title="display_votes_publicly" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[عرض الأصوات بشكل عام]]></phrase>
+  <phrase title="dnsbl_matched" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[مطابقة DNSBL]]></phrase>
+  <phrase title="do_not_auto_embed_media_links" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[عدم تضمين روابط الميديا تلقائيا]]></phrase>
   <phrase title="do_not_change" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[لا تغيير]]></phrase>
   <phrase title="do_not_have_permission" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[ليس لديك تصريح بمشاهدة هذه الصفحة أو القيام بهذا الإجراء.]]></phrase>
   <phrase title="do_not_leave_conversation" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[لا تترك المحادثة]]></phrase>
+  <phrase title="do_not_leave_redirect" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[بدون إعادة التوجيه]]></phrase>
+  <phrase title="do_nothing" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[لا تفعل شيئا]]></phrase>
   <phrase title="dont_have_account_question" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[ليس لديك حساب؟]]></phrase>
+  <phrase title="dont_send_notifications" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[لا ترسل إشعارات]]></phrase>
+  <phrase title="downgrade" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تخفيض]]></phrase>
+  <phrase title="downgrading_existing_add_on_is_not_supported" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[إن تخفيض إضافة موجودة غير مدعوم.]]></phrase>
+  <phrase title="download_sitemap" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تحميل خريطة الموقع]]></phrase>
+  <phrase title="draft_deleted_successfully" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تم حذف المسودة بنجاح.]]></phrase>
+  <phrase title="draft_saved_successfully" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تم حفظ المسودة بنجاح.]]></phrase>
+  <phrase title="drafts" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[المسودات]]></phrase>
+  <phrase title="drag_icon_to_rearrange_messages" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[اسحب الرمز لإعادة ترتيب الرسائل.]]></phrase>
   <phrase title="drag_this_image_to_crop_it_then_click_update_avatar_to_confirm" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[اسحب هذه الصورة لاقتصاصها، ثم انقر على <i>تحديث الصورة الرمزية</i> لتأكيد أو تحميل الصورة الرمزية الجديدة أدناه.]]></phrase>
+  <phrase title="drop_down_selection" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[قائمة إختيار منسدلة]]></phrase>
+  <phrase title="earliest" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[أقرب]]></phrase>
+  <phrase title="edit" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تحرير]]></phrase>
   <phrase title="edit_active_user_upgrade" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعديل ترقية المستخدم النشطة]]></phrase>
   <phrase title="edit_admin_permission" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعديل ترخيص الإدارة]]></phrase>
   <phrase title="edit_administrator" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تحرير المدير]]></phrase>
   <phrase title="edit_advertisement" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تحرير الاعلان]]></phrase>
   <phrase title="edit_advertising_position" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تحرير موضع الاعلان]]></phrase>
+  <phrase title="edit_avatar" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعديل الصورة الرمزية]]></phrase>
   <phrase title="edit_ban" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعديل الحظر]]></phrase>
   <phrase title="edit_banned_user" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعديل المستخدم المحظور]]></phrase>
+  <phrase title="edit_bb_code" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعديل BB code]]></phrase>
+  <phrase title="edit_bb_code_media_site" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعديل BB code موقع الميديا]]></phrase>
+  <phrase title="edit_category" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعديل القسم]]></phrase>
+  <phrase title="edit_code_event" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعديل code event]]></phrase>
+  <phrase title="edit_code_event_listener" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعديل code event listener]]></phrase>
+  <phrase title="edit_content_type_field" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعديل حقل نوع المحتوى]]></phrase>
   <phrase title="edit_conversation" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعديل المحادثة]]></phrase>
+  <phrase title="edit_cron_entry" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعديل المهمة المجدولة]]></phrase>
+  <phrase title="edit_date" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعديل التاريخ]]></phrase>
+  <phrase title="edit_extension" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعديل الملحق]]></phrase>
+  <phrase title="edit_feed" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعديل الخلاصة]]></phrase>
+  <phrase title="edit_field" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعديل الحقل]]></phrase>
+  <phrase title="edit_format" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعديل الصيغة]]></phrase>
   <phrase title="edit_forum" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعديل المنتدى]]></phrase>
+  <phrase title="edit_group" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعديل المجموعة]]></phrase>
+  <phrase title="edit_help_page" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعديل صفحة المساعدة]]></phrase>
+  <phrase title="edit_history" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعديل السجل]]></phrase>
+  <phrase title="edit_interface_group" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تحرير مجموعة الواجهة]]></phrase>
+  <phrase title="edit_language" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعديل اللغة]]></phrase>
+  <phrase title="edit_link" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعديل الرابط]]></phrase>
   <phrase title="edit_link_forum" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تحرير رابط المنتدى]]></phrase>
   <phrase title="edit_member" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعديل العضو]]></phrase>
   <phrase title="edit_member_stat" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعديل إحصائية العضو]]></phrase>
   <phrase title="edit_message_in_conversation" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعديل الرسالة في المحادثة]]></phrase>
+  <phrase title="edit_moderator" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعديل المشرف]]></phrase>
+  <phrase title="edit_navigation" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعديل التنقل]]></phrase>
+  <phrase title="edit_notice" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تحرير الملاحظة]]></phrase>
+  <phrase title="edit_option" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعديل الخيار]]></phrase>
+  <phrase title="edit_option_group" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تحرير مجموعة الخيار]]></phrase>
+  <phrase title="edit_page" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعديل الصفحة]]></phrase>
+  <phrase title="edit_payment_profile" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعديل الملف الشخصي للدفع]]></phrase>
   <phrase title="edit_permission" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعديل الترخيص]]></phrase>
   <phrase title="edit_phrase" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تحرير العبارة]]></phrase>
+  <phrase title="edit_poll" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعديل الاستطلاع]]></phrase>
+  <phrase title="edit_post" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعديل المشاركة]]></phrase>
+  <phrase title="edit_prefix" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعديل البادئة]]></phrase>
+  <phrase title="edit_prefix_group" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تحرير مجموعة البادئة]]></phrase>
   <phrase title="edit_profile_post" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعديل مشاركة الحائط]]></phrase>
+  <phrase title="edit_profile_post_comment" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعديل تعليق مشاركة الملف الشخصي]]></phrase>
+  <phrase title="edit_promotion" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعديل العرض]]></phrase>
+  <phrase title="edit_property" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تحرير الخاصية]]></phrase>
+  <phrase title="edit_property_group" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تحرير مجموعة الخصائص]]></phrase>
   <phrase title="edit_provider" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعديل المزود]]></phrase>
+  <phrase title="edit_question" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعديل السؤال]]></phrase>
+  <phrase title="edit_route" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعديل المسار]]></phrase>
+  <phrase title="edit_route_filter" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعديل فلتر المسار]]></phrase>
+  <phrase title="edit_signature" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعديل التوقيع]]></phrase>
+  <phrase title="edit_silently" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعديل صامت]]></phrase>
+  <phrase title="edit_smilie" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تحرير الابتسامة]]></phrase>
+  <phrase title="edit_smilie_category" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تحرير فئة الابتسامات]]></phrase>
+  <phrase title="edit_style" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعديل النمط]]></phrase>
+  <phrase title="edit_tag" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تحرير الوسم]]></phrase>
+  <phrase title="edit_tags" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تحرير الوسوم]]></phrase>
+  <phrase title="edit_template" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعديل القالب]]></phrase>
+  <phrase title="edit_template_modification" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تحرير تعديل القالب]]></phrase>
+  <phrase title="edit_thread" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تحرير الموضوع]]></phrase>
   <phrase title="edit_trophy" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تحرير الجائزة]]></phrase>
+  <phrase title="edit_user" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعديل المستخدم]]></phrase>
   <phrase title="edit_user_group" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعديل المجموعة]]></phrase>
+  <phrase title="edit_user_upgrade" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعديل ترقية المستخدم]]></phrase>
+  <phrase title="edit_warning" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعديل التحذير]]></phrase>
+  <phrase title="edit_warning_action" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعديل إجراء التحذير]]></phrase>
   <phrase title="edit_widget" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تحرير القطعة]]></phrase>
+  <phrase title="edit_widget_definition" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تحرير تعريف القطعة]]></phrase>
+  <phrase title="edit_widget_position" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تحرير موضع القطعة]]></phrase>
+  <phrase title="edit_x_again" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعديل {name} مرة أخرى.]]></phrase>
   <phrase title="edit_your_account_details" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تحرير تفاصيل حسابك]]></phrase>
+  <phrase title="editable_only_once" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[قابل للتعديل مرة واحدة فقط]]></phrase>
+  <phrase title="edited_by_x" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[حرر بواسطة {name}]]></phrase>
+  <phrase title="editor_icon" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[إيقونة المحرر]]></phrase>
+  <phrase title="ellipsis_and_x_more" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[... و {count} أكثر.]]></phrase>
+  <phrase title="ellipsis_character" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[حرف القطع]]></phrase>
+  <phrase title="else_if_tag_found_after_else_tag" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[وسم Else if وجد بعد الوسم else.]]></phrase>
+  <phrase title="email" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[البريد الإلكتروني]]></phrase>
+  <phrase title="email_address" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[عنوان البريد الإلكتروني]]></phrase>
   <phrase title="email_address_contains" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[البريد الإلكتروني للمستخدمين يحتوي على]]></phrase>
+  <phrase title="email_address_you_entered_appears_have_typo" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يبدو أن عنوان البريد الإلكتروني الذي أدخلته يحتوي على خطأ مطبعي. الرجاء المحاولة مع بريد آخر.]]></phrase>
   <phrase title="email_address_you_entered_has_been_banned_by_administrator" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[البريد الإلكتروني الذي قمت بإدخاله تم حظره بواسطة المدير .. قم بإدخال غيره.]]></phrase>
   <phrase title="email_address_you_registered_with_is_required_to_reset_your_password" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[عنوان البريد الإلكتروني الذي قمت بالتسجيل به مطلوب لإعادة تعيين كلمة المرور.]]></phrase>
+  <phrase title="email_addresses_must_be_unique" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يجب أن تكون عناوين البريد الإلكتروني فريدة. عنوان البريد الإلكتروني المحدد قيد الاستخدام بالفعل.]]></phrase>
+  <phrase title="email_body" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[جسم البريد الإلكتروني]]></phrase>
+  <phrase title="email_bounce_log" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[سجل البريد الإلكتروني المرتد]]></phrase>
   <phrase title="email_changed_body_html" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[<p>{username}،</p>
 
 <p>ريدك الإلكتروني في {board} قد تم تغييره مؤخراً إلى {new}. إذا كنت أنت من قام بهذا التغيير، يمكنك تجاهل هذه الرسالة.</p>
@@ -1013,35 +1104,95 @@ code[/CODE]
 
 <p>تم تغيير البريد الإلكتروني الخاص بك عن طريق الآي بي {ip}.</p>]]></phrase>
   <phrase title="email_changed_subject" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[{board} - تم تغيير البريد الإلكتروني]]></phrase>
+  <phrase title="email_confirmation_code" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[رمز تأكيد البريد الإلكتروني]]></phrase>
   <phrase title="email_conversation_notifications" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[إشعارات المحادثة عبر البريد الإلكتروني]]></phrase>
+  <phrase title="email_format" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تنسيق البريد الإلكتروني]]></phrase>
+  <phrase title="email_has_been_sent_to_x_with_code" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[قد تم إرسال رسالة بريد إلكتروني إلى <b>{email}</b> مع رمز يمكن استخدامه لمرة واحدة. يرجى إدخال ذلك الرمز للمتابعة.]]></phrase>
+  <phrase title="email_invalid_bounced" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[بريد غير صالح (مرتد)]]></phrase>
+  <phrase title="email_list" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[قائمة البريد الإلكتروني]]></phrase>
   <phrase title="email_search_criteria_explain" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يمكنك إدخال مقتطفات من عناوين بريد معينة و لتفصل بين كل نص و آخر بفاصلة. سيتم مطابقة العناوين الإلكترونية للأعضاء التي تحتوي على أي من هذه النصوص المدخلة هنا و تطبيق هذه المعايير عليها.]]></phrase>
+  <phrase title="email_templates" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[قوالب البريد الإلكتروني]]></phrase>
+  <phrase title="email_title" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[عنوان رسالة البريد الإلكتروني]]></phrase>
   <phrase title="email_to_ban" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[البريد الإلكتروني للحظر]]></phrase>
+  <phrase title="email_users" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[مراسلة المستخدمين]]></phrase>
+  <phrase title="email_users_description" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يمكنك استخدام هذا النموذج لإرسال بريد إلكتروني جماعي للأعضاء الذين يتطابقون مع المعايير و الشروط المحددة أدناه.]]></phrase>
+  <phrase title="emailing" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[مراسلة بالبريد الإلكتروني]]></phrase>
+  <phrase title="emails" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[رسائل البريد الإلكتروني]]></phrase>
+  <phrase title="emails_bounced" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[رسائل بريد مرتدة]]></phrase>
+  <phrase title="embed_html_callback" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تضمين رد اتصال HTML]]></phrase>
+  <phrase title="embed_template" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[قالب التضمين]]></phrase>
+  <phrase title="embedded_media" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[ميديا مضمنة]]></phrase>
+  <phrase title="embedded_youtube_player_would_appear_here" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[سيظهر مشغل YouTube مضمن هنا.]]></phrase>
+  <phrase title="empty_values_always_allowed" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[القيم الفارغة مسموح بها دائما.]]></phrase>
   <phrase title="enable" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تمكين]]></phrase>
+  <phrase title="enable_alerts" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تمكين التنبيهات]]></phrase>
+  <phrase title="enable_automated_bounced_email_handler" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تمكين المعالجة الآلية للبريد المرتد]]></phrase>
   <phrase title="enable_cache_and_cache_for_x_minutes" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تمكين الكاش و التخزين مؤقتاً لمدة X دقيقة]]></phrase>
+  <phrase title="enable_callback_execution" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تمكين تنفيذ callback]]></phrase>
   <phrase title="enable_disable_route_filter" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تمكين / تعطيل فلتر المسار]]></phrase>
   <phrase title="enable_disable_x" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تمكين / تعطيل '{title}']]></phrase>
+  <phrase title="enable_email_confirmation" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تمكين تأكيد البريد الإلكتروني]]></phrase>
+  <phrase title="enable_email_notification" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تمكين إشعار البريد الإلكتروني]]></phrase>
+  <phrase title="enable_extension" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تمكين الملحق]]></phrase>
+  <phrase title="enable_manual_approval" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تمكين الموافقة اليدوية]]></phrase>
+  <phrase title="enable_moderation" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تمكين الإشراف]]></phrase>
   <phrase title="enable_people_you_follow_row" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تمكين صف 'الأشخاص الذين تتابعهم']]></phrase>
+  <phrase title="enable_promotion_for_user" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تمكين العروض للمستخدم]]></phrase>
+  <phrase title="enable_registration" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تمكين التسجيل]]></phrase>
+  <phrase title="enable_sprite_mode_with_following_parameters" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تمكين وضع CSS sprite مع المقاييس التالية:]]></phrase>
+  <phrase title="enable_staff_online_block" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تمكين كتلة 'طاقم الإدارة المتصلون']]></phrase>
   <phrase title="enabled" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[مفعل]]></phrase>
   <phrase title="enabled_providers_x" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تمكين ({providers})]]></phrase>
+  <phrase title="encryption" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[التشفير]]></phrase>
   <phrase title="end_date" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تاريخ الانتهاء]]></phrase>
   <phrase title="engaged_in_conversation" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يشارك في محادثة]]></phrase>
+  <phrase title="enter_braintree_payment_details" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[أدخل تفاصيل دفع Braintree]]></phrase>
   <phrase title="enter_display_order_relative_to_other_ads_in_same_position" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[أدخل ترتيب العرض بالنسبة إلى الإعلانات الأخرى في الموضع نفسه.]]></phrase>
+  <phrase title="enter_email_address_of_gravatar_you_want_to_use" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[أدخل عنوان البريد الإلكتروني لـ Gravatar الذي تريد استخدامه.]]></phrase>
+  <phrase title="enter_id_where_you_want_user_entered_media_id_to_be_used" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[أدخل <span dir="ltr">{$id}</span> حيث تريد من المستخدم أن يدخل معرف الميديا.]]></phrase>
+  <phrase title="enter_media_url" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[أدخل رابط الميديا]]></phrase>
   <phrase title="enter_multiple_values_to_replace_on_separate_lines" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يمكنك إدخال قيم نصية متعددة لاستبدالها بوضعها على أسطر منفصلة.]]></phrase>
   <phrase title="enter_name_of_existing_user_conversation_should_be_started_by" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[أدخل اسم مستخدم موجود يجب أن تبدأ المحادثة بواسطته.]]></phrase>
+  <phrase title="enter_page_title_format" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[أدخل تنسيق عنوان الصفحة]]></phrase>
   <phrase title="enter_spoiler_title" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[أدخل عنوان المحتوى المخفي]]></phrase>
   <phrase title="enter_spoiler_title_explain" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[إذا كنت ترغب بإظهار عنوان يلمح إلى محتوى زر 'المحتوى المخفي' ، أدخل النص الخاص بك هنا. إذا كنت تريد إظهار الزر بدون عنوان، اترك مربع النص هذا فارغاً.]]></phrase>
   <phrase title="enter_your_password_in_first_box_and_confirm_it_in_second" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[أدخل كلمة المرور الخاصة بك في المربع الأول وأعد إدخالها مرة أخرى في المربع الثاني.]]></phrase>
   <phrase title="error" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[خطأ]]></phrase>
+  <phrase title="error_occurred_while_connecting_with_x" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[لقد حدث خطأ اثناء الاتصال مع {provider}. يرجى اعادة المحاوله لاحقا.]]></phrase>
+  <phrase title="error_occurred_while_connecting_with_x_error_y" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[لقد حدث خطأ اثناء الاتصال مع {provider}. الخطأ: {error}]]></phrase>
+  <phrase title="event_id" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[المعرف]]></phrase>
+  <phrase title="everyone" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الجميع]]></phrase>
+  <phrase title="everywhere" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[في كل مكان]]></phrase>
   <phrase title="example" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[المثال]]></phrase>
   <phrase title="example_output" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[مثال الناتج]]></phrase>
   <phrase title="example_usage" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[مثال الاستخدام]]></phrase>
+  <phrase title="excellent" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[ممتاز]]></phrase>
+  <phrase title="execute_callback" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تنفيذ callback]]></phrase>
+  <phrase title="execution_has_been_allowed_to_continue" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تم السماح باستمرار التنفيذ.]]></phrase>
+  <phrase title="execution_order" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[أولوية الطلب]]></phrase>
   <phrase title="existing" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[موجود]]></phrase>
   <phrase title="existing_attachments" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[المرفقات الموجودة]]></phrase>
   <phrase title="existing_thread" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[موضوع موجود]]></phrase>
   <phrase title="expanded" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[موسع]]></phrase>
+  <phrase title="expected_simple_variable_reference_but_did_not_receive_one" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[توقع مرجع متغير بسيط ولكن لم يتلق أي واحد.]]></phrase>
+  <phrase title="expected_valid_expression" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[التعبير الصحيح المتوقع.]]></phrase>
+  <phrase title="expire_in_time" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تنتهي في]]></phrase>
+  <phrase title="expire_now" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تنتهي الآن]]></phrase>
+  <phrase title="expired" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[منتهي الصلاحيه]]></phrase>
+  <phrase title="expired_user_upgrades" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[ترقيات المستخدم المنتهية الصلاحية]]></phrase>
+  <phrase title="expires" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تنتهي]]></phrase>
+  <phrase title="expires_never" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تنتهي: أبدا]]></phrase>
+  <phrase title="expires_x" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تنتهي {date}]]></phrase>
+  <phrase title="expiry" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[مدة الصلاحية]]></phrase>
+  <phrase title="explanation" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[التفسير]]></phrase>
+  <phrase title="export" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تصدير]]></phrase>
+  <phrase title="export_as_independent_style" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[التصدير كستايل مستقل]]></phrase>
+  <phrase title="export_from_add_on" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[التصدير من الإضافة]]></phrase>
+  <phrase title="export_language" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تصدير اللغة]]></phrase>
   <phrase title="export_style" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تصدير الستايل]]></phrase>
+  <phrase title="extension_class_name" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[إسم ملحق الكلاس]]></phrase>
   <phrase title="extra" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[إضافات]]></phrase>
-  <phrase title="extra_attributes" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[سمات إضافية]]></phrase>
+  <phrase title="extra_attributes" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[خصائص إضافية]]></phrase>
   <phrase title="extra_user_groups" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[مجموعات المستخدم الإضافية]]></phrase>
   <phrase title="facebook" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[فيسبوك]]></phrase>
   <phrase title="failed" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[فشل]]></phrase>
@@ -1089,10 +1240,18 @@ code[/CODE]
   <phrase title="first_post_likes_between" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[إعجابات بالمشاركة الأولى بين]]></phrase>
   <phrase title="first_requested" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الطلب الأول]]></phrase>
   <phrase title="first_seen" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[المشاهدة الأولى]]></phrase>
+  <phrase title="flag" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[علم]]></phrase>
+  <phrase title="floating" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[عائمة]]></phrase>
+  <phrase title="follow" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[متابعة]]></phrase>
   <phrase title="followed_members_only" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الأعضاء المتابعين فقط]]></phrase>
+  <phrase title="followed_only" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[متابعة فقط]]></phrase>
+  <phrase title="followers" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[متابِعون]]></phrase>
+  <phrase title="following" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[متابَعون]]></phrase>
   <phrase title="following_add_ons_missing_necessary_files_for_health_checking" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الإضافات التالية مفقودة الملفات اللازمة لفحص الصحة.]]></phrase>
   <phrase title="following_errors_must_be_resolved_before_continuing" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يجب حل الأخطاء التالية قبل المتابعة]]></phrase>
   <phrase title="following_members_not_found_x" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعذر العثور الأعضاء: {members}.]]></phrase>
+  <phrase title="following_payment_providers_do_not_support_recurring_payments" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[لا يدعم موفرو خدمة الدفع التاليون الدفعات المتكررة: {invalidRecurring}. لرجاء التاكد من صلاحية كافة ملفات تعريف الدفع.]]></phrase>
+  <phrase title="following_payment_providers_do_not_support_x_as_valid_currency" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[لا يدعم موفرو خدمة الدفع التاليون {currency} كخيار عملة صالح: {invalidCurrency}. الرجاء التاكد من صلاحية كافة ملفات تعريف الدفع.]]></phrase>
   <phrase title="following_placeholders_will_be_replaced_in_message_for_conversation" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[سيتم استبدال العناصر التالية في الرسالة: {name}, {id}.]]></phrase>
   <phrase title="following_words_were_not_included_in_your_search_x" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الكلمات التالية لم يتم تضمينها في البحث الخاص بك لأنها قصيرة جداً أو طويلة جداً أو شائعة جداً: {words}]]></phrase>
   <phrase title="font_family" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[عائلة الخط]]></phrase>
@@ -1111,6 +1270,7 @@ code[/CODE]
   <phrase title="forums" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[المنتديات]]></phrase>
   <phrase title="full_size" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الحجم الكامل]]></phrase>
   <phrase title="get_unmodified_phrases" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الحصول على العبارات الغير معدلة]]></phrase>
+  <phrase title="get_untranslated_phrases" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الحصول على العبارات الغير مترجمة]]></phrase>
   <phrase title="global_permissions" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تراخيص عامة]]></phrase>
   <phrase title="go_to_content" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الذهاب للمحتوى]]></phrase>
   <phrase title="group" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[المجموعة]]></phrase>
@@ -1310,6 +1470,7 @@ code[/CODE]
   <phrase title="new_posts" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[المشاركات الجديدة]]></phrase>
   <phrase title="new_thread_in_watched_forum_x" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[{title} - موضوع جديد في المنتدى الذي تتابعه]]></phrase>
   <phrase title="new_threads" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[مواضيع جديدة]]></phrase>
+  <phrase title="new_trophy" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[جائزة جديدة]]></phrase>
   <phrase title="newest_members_widget_must_be_configured_to_display_one_or_more_users" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يجب تكوين قطعة الأعضاء الجدد لعرض مستخدم واحد أو أكثر.]]></phrase>
   <phrase title="news_feed" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تغذية الأخبار]]></phrase>
   <phrase title="news_feed_profile_post_insert_status" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[{username} حدث <a href="{href}">حالته</a>.]]></phrase>
@@ -1328,6 +1489,7 @@ code[/CODE]
   <phrase title="no_notifications_forum_watch_description" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[سيتم سرد المنتدى في صفحة المنتديات التي تتابعها، و التي يتم استخدامها فقط لعرض المنتديات التي أنت مهتم بها.]]></phrase>
   <phrase title="no_permission_to_post" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[ليس لديك امتيازات كافية للنشر هنا.]]></phrase>
   <phrase title="no_permission_to_reply" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[ليس لديك امتيازات كافية للرد هنا.]]></phrase>
+  <phrase title="no_permissions_have_been_created_for_group_type_yet" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[لم يتم إنشاء أية أذونات لنوع المجموعة حتى الآن.]]></phrase>
   <phrase title="no_reports_have_been_closed_during_this_period" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[لا توجد تقارير مغلقة خلال هذه الفترة.]]></phrase>
   <phrase title="no_reports_were_found_for_this_users_content" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[لم يتم العثور علي أي تقارير لمحتوى هذا المستخدم.]]></phrase>
   <phrase title="no_results_found" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[لا توجد نتائج.]]></phrase>
@@ -1353,6 +1515,7 @@ code[/CODE]
   <phrase title="not_staff_member" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[ليس من طاقم الإدارة]]></phrase>
   <phrase title="notable_members" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[أبرز الأعضاء]]></phrase>
   <phrase title="note" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[ملاحظة]]></phrase>
+  <phrase title="note_that_author_will_see_alert_even_no_longer_view_message" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[لاحظ أن الكاتب سيشاهد هذا التنبيه حتى إذا لم يعد بإمكانه عرض رسالته.]]></phrase>
   <phrase title="note_thread_starter_see_alert_even_no_longer_view_thread" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[لاحظ أن كاتب الموضوع سوف يرى هذا التنبيه حتى إن لم يعد قادراً على عرض الموضوع الخاص به.]]></phrase>
   <phrase title="notes" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[ملاحظات]]></phrase>
   <phrase title="notice_is_active" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الملاحظة مفعلة]]></phrase>
@@ -1362,7 +1525,9 @@ code[/CODE]
   <phrase title="one_minute_ago" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[منذ 1 دقيقة]]></phrase>
   <phrase title="online_now_x_members_y_guests_z" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[المجموع:&nbsp;{total} (الأعضاء:&nbsp;{members}, الزوار:&nbsp;{guests})]]></phrase>
   <phrase title="only_edits_within_last_x_days_will_be_reverted" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[لن يتم إستعادة سوى التعديلات التي أجريت خلال آخر {count} أيام.]]></phrase>
+  <phrase title="only_include_members_you_follow" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تشمل فقط الأعضاء الذين تُتابعهم]]></phrase>
   <phrase title="only_include_threads_in_selected_forums" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تضمين المواضيع في المنتديات المحددة فقط.]]></phrase>
+  <phrase title="only_include_threads_youve_participated_in" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تضمين المواضيع التي شاركت فيها فقط]]></phrase>
   <phrase title="open_report" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[مفتوح]]></phrase>
   <phrase title="option.addBanUserGroup" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[عند الحظر أضف للمجموعة]]></phrase>
   <phrase title="option.adminRequireTfa" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يتطلب التحقق بخطوتين للوصول إلى لوحة تحكم الإدارة]]></phrase>
@@ -1964,6 +2129,7 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="remove_this_filter" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[إزالة هذه التصفية]]></phrase>
   <phrase title="removed_from_public_view" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تمت الإزالة من العرض العام]]></phrase>
   <phrase title="replies" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الردود]]></phrase>
+  <phrase title="replies_to_watched_thread" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[ردود على موضوع تتابعه]]></phrase>
   <phrase title="reply_count_between" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[عدد الردود بين]]></phrase>
   <phrase title="reply_placeholder" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[أكتب ردك...]]></phrase>
   <phrase title="reply_to_conversation" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الرد على المحادثة]]></phrase>
@@ -2022,6 +2188,7 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="search_tags" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[بحث بالوسوم]]></phrase>
   <phrase title="search_templates" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[البحث في القوالب]]></phrase>
   <phrase title="search_text_must_contain_delimiters_modifiers_for_regex" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يجب أن يحتوي نص البحث على المحددات و المبدلات لاستخدامها في التعبير القياسي]]></phrase>
+  <phrase title="search_threads_and_posts" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[البحث في المواضيع والمشاركات]]></phrase>
   <phrase title="search_titles_only" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[بحث بالعناوين فقط]]></phrase>
   <phrase title="search_type" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[نوع البحث]]></phrase>
   <phrase title="search_within" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[البحث ضمن]]></phrase>
@@ -2166,6 +2333,8 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="total_queries" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[مجموع الإستعلامات]]></phrase>
   <phrase title="total_time" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[إجمالي الوقت]]></phrase>
   <phrase title="translate_phrases" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[ترجمة العبارات]]></phrase>
+  <phrase title="translated_in_parent_language" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[مترجمة في اللغة الأصلية]]></phrase>
+  <phrase title="translated_in_this_language" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[مترجمة بهذه اللغة]]></phrase>
   <phrase title="trophy_options" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[خيارات الجائزة]]></phrase>
   <phrase title="trophy_points" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[نقاط الجائزة]]></phrase>
   <phrase title="trophy_points_between" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[نقاط الجائزة بين]]></phrase>
@@ -2294,6 +2463,7 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="view_full_list" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[عرض القائمة الكاملة]]></phrase>
   <phrase title="view_history" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[عرض السجل]]></phrase>
   <phrase title="view_host_content" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[عرض مكان المحتوى]]></phrase>
+  <phrase title="view_list_of_supported_sites" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[عرض قائمة المواقع المعتمدة.]]></phrase>
   <phrase title="view_more" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[عرض المزيد]]></phrase>
   <phrase title="view_older_results" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[عرض النتائج القديمة]]></phrase>
   <phrase title="view_or_filter_matches" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[عرض أو تصفية التطابقات]]></phrase>
