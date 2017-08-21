@@ -944,6 +944,7 @@ code[/CODE]
   <phrase title="details" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[التفاصيل]]></phrase>
   <phrase title="details_of_warning" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تفاصيل التحذير]]></phrase>
   <phrase title="developer" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[المطور]]></phrase>
+  <phrase title="developer_information" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[معلومات المطور]]></phrase>
   <phrase title="development_mode_is_enabled_and_dev_output_is_available" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تم تمكين وضع التطوير ويتوفر إخراج dev. إذا لم يتم تصدير بيانات الإضافة مؤخرا، فقد تكون قديمة، وقد يؤدي هذا الإجراء إلى فقدان البيانات. فكر في التصدير أولا أو باستخدام أمر CLI.]]></phrase>
   <phrase title="development_output_is_available_import_data_from_output_directory" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تصدير المطور متاح، استيراد البيانات من مجلد _output ؟]]></phrase>
   <phrase title="device_trusted_until_x_disable_desc" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[هذا الجهاز موثوق به حاليا حتى {until}. لن تحتاج إلى عملية إكمال التحقق بخطوتين من هذا الجهاز حتى ذلك الحين. يمكنك اختيار إيقاف الثقة بهذا الجهاز حيث أنه سوف تتم مطالبتك بإكمال التحقق بخطوتين عند تسجيل الدخول التالي.]]></phrase>
@@ -1249,7 +1250,7 @@ code[/CODE]
   <phrase title="find_content" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[البحث عن محتوى]]></phrase>
   <phrase title="find_reports" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[البحث عن تقارير]]></phrase>
   <phrase title="find_reports_for_member" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[البحث عن تقارير للعضو]]></phrase>
-  <phrase title="find_route" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[البحث عن مسار]]></phrase>
+  <phrase title="find_route" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[البحث عن المسار]]></phrase>
   <phrase title="find_route_must_start_with_route_prefix" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يجب أن يبدأ البحث عن مسار ببادئة المسار.]]></phrase>
   <phrase title="first_message" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الرسالة الأولى]]></phrase>
   <phrase title="first_message_likes" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[إعجابات الرسالة الأولى]]></phrase>
@@ -1713,7 +1714,7 @@ code[/CODE]
   <phrase title="likes_received" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الإعجابات المتلقاة]]></phrase>
   <phrase title="liking_own_content_cheating" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الإعجاب بالمحتوى الخاص بك يعتبر غشاً.]]></phrase>
   <phrase title="line_x" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[السطر {line}]]></phrase>
-  <phrase title="link" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[رابط]]></phrase>
+  <phrase title="link" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الرابط]]></phrase>
   <phrase title="link_bbcode_must_include_url_token" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[رابط BB code يجب أن يتضمن علامة التمييز {$url} .]]></phrase>
   <phrase title="link_building_callback" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[رد اتصال بناء الرابط]]></phrase>
   <phrase title="link_proxy_details" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تفاصيل وكيل الرابط]]></phrase>
@@ -1884,6 +1885,7 @@ code[/CODE]
   <phrase title="mod_log.thread_poll_edit" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تم تعديل استطلاع]]></phrase>
   <phrase title="mod_log.thread_stick" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[موضوع مثبت]]></phrase>
   <phrase title="mod_log.thread_unstick" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[إلغاء تثبيت موضوع]]></phrase>
+  <phrase title="mod_log.user_approved" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تمت الموافقة على حساب المستخدم]]></phrase>
   <phrase title="mod_log.user_rejected" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[حساب مستخدم مرفوض (السبب: {reason})]]></phrase>
   <phrase title="mod_log.user_spam_clean" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تنظيف مستخدم سبام]]></phrase>
   <phrase title="moderate_new_threads_posted_in_this_forum" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[إدارة المواضيع الجديدة المنشورة في هذا المنتدى]]></phrase>
@@ -1918,6 +1920,7 @@ code[/CODE]
   <phrase title="monthly" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[شهريا]]></phrase>
   <phrase title="monthly_statistics" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[إحصائيات شهرية]]></phrase>
   <phrase title="months" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[شهور]]></phrase>
+  <phrase title="more_options" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[خيارات إضافية]]></phrase>
   <phrase title="most_replies" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الأكثر ردوداً]]></phrase>
   <phrase title="move_delete_spammers_threads" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[نقل / حذف مواضيع السبام]]></phrase>
   <phrase title="move_spammers_threads" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[نقل مواضيع السبام]]></phrase>
@@ -1967,6 +1970,8 @@ code[/CODE]
   <phrase title="new_message_in_watched_forum_x" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[{title} - رسالة جديدة في المنتدى الذي تتابعه]]></phrase>
   <phrase title="new_password" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[كلمة المرور الجديدة]]></phrase>
   <phrase title="new_posts" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[المشاركات الجديدة]]></phrase>
+  <phrase title="new_posts_display_style_full_explain" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[عرض بالحجم الكامل، يتم عرضه كقائمة مواضيع عادية.]]></phrase>
+  <phrase title="new_posts_display_style_simple_explain" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[طريقة عرض أبسط، مصممة للمساحات الضيقة مثل الأشرطة الجانبية.]]></phrase>
   <phrase title="new_posts_filter_latest_explain" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[قائمة بأي موضوع تم نشره مؤخرا في (الافتراضي للضيوف).]]></phrase>
   <phrase title="new_posts_filter_unread_explain" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[قائمة بالمواضيع التي تحتوي على مشاركات غير مقروءة.]]></phrase>
   <phrase title="new_posts_filter_watched_explain" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[قائمة المواضيع التي يتابعها المستخدم والتي تم نشرها مؤخرا في.]]></phrase>
@@ -2024,6 +2029,7 @@ code[/CODE]
   <phrase title="no_feeds_have_been_registered_yet" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[لم يتم تسجيل أي خلاصات حتى الآن.]]></phrase>
   <phrase title="no_gravatar_found_for_specified_email_address" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[لم يتم العثور على Gravatar لعنوان البريد الإلكتروني المحدد.]]></phrase>
   <phrase title="no_image" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[بدون صورة]]></phrase>
+  <phrase title="no_ip_information_available" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[لا تتوفر معلومات عنوان IP لهذا المحتوى.]]></phrase>
   <phrase title="no_ips_have_been_discouraged" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[لا يوجد آيبيات قد تم تجاهلها.]]></phrase>
   <phrase title="no_items_have_been_created_yet" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[لم يتم إنشاء أي عناصر حتى الآن.]]></phrase>
   <phrase title="no_items_matched_your_filter" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[لا توجد عناصر تطابق عامل التصفية الخاص بك.]]></phrase>
@@ -2102,6 +2108,15 @@ code[/CODE]
   <phrase title="notify_members_watching_destination_forum" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[إشعار الأعضاء المتابعين بالمنتدى الوجهة]]></phrase>
   <phrase title="notify_thread_starter_of_this_action" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[إشعار صاحب الموضوع بهذا الإجراء.]]></phrase>
   <phrase title="number_of_users_matching_criteria" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[عدد المستخدمين المطابقين للمعايير]]></phrase>
+  <phrase title="oembed_api_endpoint" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[oEmbed نقاط نهاية API]]></phrase>
+  <phrase title="oembed_log" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[سجل oEmbed]]></phrase>
+  <phrase title="oembed_media_details" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تفاصيل oEmbed media]]></phrase>
+  <phrase title="oembed_options" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[خيارات oEmbed]]></phrase>
+  <phrase title="oembed_url_scheme" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[oEmbed مخطط عناوين URL]]></phrase>
+  <phrase title="okay" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[موافق]]></phrase>
+  <phrase title="old" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[القديم]]></phrase>
+  <phrase title="old_value" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[القيمة القديمة]]></phrase>
+  <phrase title="older" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[أقدم]]></phrase>
   <phrase title="on_next_page_you_may_apply_settings_to_all_selected_prefixes" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[في الصفحة التالية، يمكنك تطبيق الإعدادات على كافة البادئات المحددة. إذا كنت ترغب في وضع هذه الإعدادات على بادئة موجودة، فحددها هنا.]]></phrase>
   <phrase title="on_next_page_you_may_apply_settings_to_all_selected_prompts" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[في الصفحة التالية، يمكنك تطبيق الإعدادات على كافة التلقينات المحددة. إذا كنت ترغب في وضع هذه الإعدادات على الملقن الحالي، فحدده هنا.]]></phrase>
   <phrase title="on_off_check_box_with_text_box" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تشغيل / إيقاف مربع اختيار مع مربع نص]]></phrase>
@@ -2150,6 +2165,7 @@ code[/CODE]
   <phrase title="option.conversationPopupExpiryHours" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[ساعات الإحتفاظ بالرسائل المقروءة في القائمة المنسدلة]]></phrase>
   <phrase title="option.currentVersionId" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[معرف الإصدار الحالي]]></phrase>
   <phrase title="option.defaultEmailAddress" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[عنوان البريد الالكتروني الافتراضي]]></phrase>
+  <phrase title="option.defaultEmailStyleId" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[نمط البريد الإلكتروني الافتراضي]]></phrase>
   <phrase title="option.defaultLanguageId" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[اللغة الإفتراضية]]></phrase>
   <phrase title="option.defaultStyleId" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الستايل الإفتراضي]]></phrase>
   <phrase title="option.disallowedCustomTitles" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[العناوين المخصصة الممنوعة]]></phrase>
@@ -2162,7 +2178,7 @@ code[/CODE]
   <phrase title="option.discussionPreview" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تمكين معاينة المشاركة]]></phrase>
   <phrase title="option.discussionRssContentLength" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[عدد الاحرف في محتوى موضوع RSS]]></phrase>
   <phrase title="option.discussionsPerPage" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[المواضيع في كل صفحة]]></phrase>
-  <phrase title="option.displayVisitorCount" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[عرض عدد الزوار]]></phrase>
+  <phrase title="option.displayVisitorCount" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[عرض العدد للزوار]]></phrase>
   <phrase title="option.dynamicAvatarEnable" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تمكين الصور الرمزية الافتراضية الديناميكية]]></phrase>
   <phrase title="option.editHistory" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تمكين تتبع سجل التعديل و مسحه خلال:]]></phrase>
   <phrase title="option.editLogDisplay" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تمكين عرض سجل التعديل بعد:]]></phrase>
@@ -2454,6 +2470,7 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="option_group.emailOptions" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[خيارات البريد الإلكتروني]]></phrase>
   <phrase title="option_group.imageLinkProxy" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[وكيل الصورة و الرابط]]></phrase>
   <phrase title="option_group.logging" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[خيارات السجل]]></phrase>
+  <phrase title="option_group.mediaEmbedding" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تضمين وسائط الميديا]]></phrase>
   <phrase title="option_group.messageOptions" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[المشاركات]]></phrase>
   <phrase title="option_group.newsfeed" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[خلاصة الأخبار]]></phrase>
   <phrase title="option_group.nodeList" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[قائمة الأقسام و المنتديات]]></phrase>
@@ -2468,17 +2485,33 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="option_group.tagging" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[وسم المحتوى]]></phrase>
   <phrase title="option_group.users" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[خيارات المستخدم]]></phrase>
   <phrase title="option_group.usersAndRegistration" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تسجيل المستخدم]]></phrase>
+  <phrase title="option_group_description.acp" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يحتوي على خيارات مختلفة تتعلق بلوحة تحكم الإدارة نفسها.]]></phrase>
+  <phrase title="option_group_description.alerts" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[عندما تحدث الأحداث التي تؤثر على المستخدمين الأفراد، فسيتم تنبيههم عبر هذا النظام. وبما انه يتم إنشاء كميات كبيرة من التنبيهات، يتم حذفها دوريا من قاعدة البيانات.]]></phrase>
+  <phrase title="option_group_description.appearance" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تتحكم هذه الخيارات في كيفية ظهور موقعك للزوار.]]></phrase>
+  <phrase title="option_group_description.attachments" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[المرفقات هي الملفات التي يتم تحميلها إلى المنتدى مع الرسائل.]]></phrase>
   <phrase title="option_group_description.boardActive" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[هنا تشغيل أو إيقاف منتداك.]]></phrase>
+  <phrase title="option_group_description.censoringOptions" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[سيخضع النص الذي تم إنشاؤه من قبل المستخدم لقواعد الرقابة التي تحددها هنا.]]></phrase>
+  <phrase title="option_group_description.debug" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تهدف هذه الخيارات إلى ان يتم التلاعب بها بشكل مباشر فقط من قبل مطوري XenForo.]]></phrase>
   <phrase title="option_group_description.discourager" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA['الإحباط و التجاهل' هو نظام يهدف إلى جعل تجربة التصفح للمستخدمين 'المتجاهلين' محبطة قدر الإمكان، بهدف جعلهم يتركون موقعك و يتخلون عنه. <br />
 <br />
 يمكن تعيين مستخدم إلى وضع 'الإحباط' عن طريق تحرير الملف الشخصي للمستخدم، أو إحباط عنوان IP أو نطاق عنوان IP.]]></phrase>
+  <phrase title="option_group_description.discussionOptions" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يتم تضمين الرسائل في مجال مناقشة، ويمكن الإطلاع على الخيارات المتعلقة بها هنا.]]></phrase>
   <phrase title="option_group_description.imageLinkProxy" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يتحكم في نظام الوكيل وتسجيل الروابط والصور التي تم نشرها]]></phrase>
   <phrase title="option_group_description.logging" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الخيارات التي تتحكم في البيانات التي يتم تسجيلها ومدة الاحتفاظ بها.]]></phrase>
+  <phrase title="option_group_description.mediaEmbedding" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يحتوي على الإعدادات المتعلقة بتضمين وسائط الميديا الخارجية مثل مقاطع الفيديو والمقاطع الصوتية ومحتوى الوسائط الاجتماعية.]]></phrase>
+  <phrase title="option_group_description.messageOptions" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تتحكم الخيارات هنا في الرسائل التي ينشرها المستخدمون إلى النظام، بما في ذلك الرسائل في المواضيع ومشاركات الملف الشخصي والمحادثات إلخ.]]></phrase>
   <phrase title="option_group_description.newsfeed" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تغذية الأخبار، أو تيار النشاط هو سجل يتم تحديثه باستمرار بالأشياء التي قام بها الأعضاء المسجلين، والتي يمكن مشاهدتها من قبل الزوار الآخرين. <br /> 
 <br /> 
 من الممكن تصفية تغذية الاخبار للمستخدمين الذين تتابعهم، أو مستخدم واحد.]]></phrase>
+  <phrase title="option_group_description.nodeList" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[ان الأقسام وقائمه المنتدى هي بنية التنقل الاساسيه لمنتديات وصفحات XenForo.]]></phrase>
+  <phrase title="option_group_description.performance" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تتيح لك الخيارات هنا إيقاف تشغيل الأنظمة أو تعديلها من أجل تحسين أداء موقعك.]]></phrase>
   <phrase title="option_group_description.searchOptions" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تتحكم هذه الخيارات في عملية سير نظام البحث المدمج في XenForo  للسماح بالبحث عن الرسائل والمحتويات الأخرى.]]></phrase>
+  <phrase title="option_group_description.seo" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[هنا يمكنك تعديل مختلف خيارات إنشاء الروابط وعرض المحتوى.]]></phrase>
+  <phrase title="option_group_description.serviceProviders" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[بالنسبة لبعض الوظائف، XenForo سوف يتم تسليمه إلى موفر خدمه طرف ثالث. يمكنك تغيير بعض الإعدادات الافتراضية المستخدمة هنا.]]></phrase>
+  <phrase title="option_group_description.sharing" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تتحكم هذه الخيارات في ميزات مشاركة الشبكة الاجتماعية لـ XenForo.]]></phrase>
+  <phrase title="option_group_description.sitemap" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تسمح لك هذه الخيارات بالتحكم في كيفية إنشاء ملف خريطة XML وإرسالها إلى محركات البحث. يمكن استخدام ملف الخريطة لتسريع فهرسة محرك البحث للموقع الخاص بك.]]></phrase>
   <phrase title="option_group_description.spam" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[هنا الخيارات الافتراضية لأنظمة مكافحة البريد المزعج والوقاية.]]></phrase>
+  <phrase title="option_group_description.tagging" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الخيارات التي تتحكم في كيفية تطبيق الوسوم على المحتوى.]]></phrase>
   <phrase title="option_phrase_value_newThreadPrompt" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[ماذا تريد أن تقول يا عزيزي؟]]></phrase>
   <phrase title="optional" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[اختياري]]></phrase>
   <phrase title="optional_components" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[عناصر اختيارية]]></phrase>
@@ -2499,6 +2532,7 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="override_user_style_choice" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تجاوز اختيار ستايل المستخدم]]></phrase>
   <phrase title="overview" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[نظرة عامة]]></phrase>
   <phrase title="overwrite_language" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الكتابه على اللغه]]></phrase>
+  <phrase title="overwrite_style" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الكتابة على الستايل]]></phrase>
   <phrase title="page" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الصفحة]]></phrase>
   <phrase title="page_content" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[محتوى الصفحة]]></phrase>
   <phrase title="page_criteria" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[معايير الصفحة]]></phrase>
@@ -2516,6 +2550,7 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="parent_version" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الإصدار الأساسي]]></phrase>
   <phrase title="parentheses_characters" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[أحرف الأقواس]]></phrase>
   <phrase title="participants" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[المشاركين]]></phrase>
+  <phrase title="password" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[كلمة المرور]]></phrase>
   <phrase title="password_and_security" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[كلمة المرور والأمان]]></phrase>
   <phrase title="password_changed_body_html" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[<p>{username}،</p>
 
@@ -2525,7 +2560,11 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
 
 <p>كلمة مرورك تم تغييرها من الآي بي {ip}.</p>]]></phrase>
   <phrase title="password_changed_subject" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[{board} - تم تغيير كلمة السر]]></phrase>
+  <phrase title="password_confirmation" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تأكيد كلمة المرور]]></phrase>
   <phrase title="password_of_x_account_wish_to_associate_with" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[هذه هي كلمة المرور لحساب {board_title} و التي ترغب في الإقتران بها.]]></phrase>
+  <phrase title="password_reset_confirmation_will_be_emailed_to_user" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[سيتم إرسال رسالة تأكيد إعادة تعيين كلمة المرور إلى المستخدم ولن يتمكن من تسجيل الدخول حتى يتم تعيين كلمة مرور جديدة.]]></phrase>
+  <phrase title="password_reset_request_has_been_emailed_to_you" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تم إرسال طلب إعادة تعيين كلمة المرور إليك عبر البريد الإلكتروني. يرجى اتباع الإرشادات الواردة في هذه الرسالة الإلكترونية.]]></phrase>
+  <phrase title="passwords_did_not_match" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[لم تتطابق كلمات المرور. الرجاء إدخال كلمة المرور نفسها في كلا الحقلين.]]></phrase>
   <phrase title="pay_x" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[دفع {cost}]]></phrase>
   <phrase title="payment" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الدفع]]></phrase>
   <phrase title="payment_profile" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[ملف تعريف الدفع]]></phrase>
@@ -2539,6 +2578,7 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="paypal_primary_account" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[بريد الحساب الرئيسي لـ PayPal]]></phrase>
   <phrase title="paypal_primary_account_explain" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[هذا هو عنوان البريد الإلكتروني الرئيسي لحساب PayPal الخاص بك. إذا كان هذا غير صحيح، قد لا تتم معالجة المدفوعات بنجاح. لاحظ أنه يجب أن يكون حساب باي بال ممتاز Premier أو حساب أعمال Business ويجب تمكين IPNs. يرجى الاطلاع على]]></phrase>
   <phrase title="people_may_reply_to_this_thread" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[قد يرد الأشخاص على هذا الموضوع]]></phrase>
+  <phrase title="people_x_follows" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[أشخاص يتابعهم {name}]]></phrase>
   <phrase title="people_you_follow" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[أشخاص تتابعهم]]></phrase>
   <phrase title="period" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الفترة]]></phrase>
   <phrase title="permanent" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[دائم]]></phrase>
@@ -2656,6 +2696,7 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="permission_interface_group_ids_must_be_unique" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يجب أن تكون معرفات واجهة مجموعة التصريح فريدة. المعرف المحدد قيد الاستخدام بالفعل.]]></phrase>
   <phrase title="permission_type" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[نوع التصريح]]></phrase>
   <phrase title="permissions" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[التصاريح]]></phrase>
+  <phrase title="personal_details" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تفاصيل شخصية]]></phrase>
   <phrase title="phrase_search_results" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[نتائج البحث بعبارات]]></phrase>
   <phrase title="phrase_status" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[حالة العبارة]]></phrase>
   <phrase title="phrase_text" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[نص العبارة]]></phrase>
@@ -2666,6 +2707,7 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="please_answer_the_question_above" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الرجاء الإجابة عن السؤال أعلاه ...]]></phrase>
   <phrase title="please_choose_valid_moderator_type" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الرجاء اختيار نوع مشرف صالح]]></phrase>
   <phrase title="please_choose_valid_payment_profile_to_continue_with_your_purchase" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الرجاء اختيار ملف تعريف دفع صحيح لمتابعه عمليه الشراء.]]></phrase>
+  <phrase title="please_confirm_reversion_of_customized_components_from_style" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الرجاء تأكيد أنك تريد إرجاع  {numTemplates} قوالب و  {numProperties} عنصر من الخصائص في ستايل <em>{style}</em> إلى القيم الإفتراضية.]]></phrase>
   <phrase title="please_confirm_that_you_want_to_discourage_following_ip" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الرجاء تأكيد تجاهل عناوين الـ IP التالية]]></phrase>
   <phrase title="please_confirm_that_you_want_to_rebuild_following_add_on" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الرجاء تأكيد رغبتك في إعادة بناء و إنشاء البيانات الرئيسية للإضافة التالية]]></phrase>
   <phrase title="please_confirm_that_you_want_to_remove_following_user_as_moderator" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الرجاء تأكيد أنك تريد إزالة المستخدم التالي كمشرف]]></phrase>
@@ -2682,6 +2724,7 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="please_enter_advertising_position_key" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الرجاء إدخال مفتاح صالح لموضع الإعلان.]]></phrase>
   <phrase title="please_enter_at_least_one_choice" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الرجاء إدخال خيار واحد على الأقل.]]></phrase>
   <phrase title="please_enter_at_least_two_poll_responses" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يرجى إدخال إختيارين على الأقل في التصويت.]]></phrase>
+  <phrase title="please_enter_list_of_sub_options_for_this_array" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الرجاء إدخال قائمة بالخيارات الفرعية لهذه المصفوفة.]]></phrase>
   <phrase title="please_enter_message_template" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الرجاء إدخال قالب رسالة.]]></phrase>
   <phrase title="please_enter_message_with_no_more_than_x_images" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الرجاء إدخال رسالة لا تزيد عن {count} من الصور.]]></phrase>
   <phrase title="please_enter_page_content" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الرجاء إدخال محتوى الصفحة.]]></phrase>
@@ -2693,6 +2736,7 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="please_enter_valid_member_stat_key" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الرجاء إدخال مفتاح صالح لإحصائية العضو.]]></phrase>
   <phrase title="please_enter_valid_message_to_start_conversation" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[لبدء المحادثة، الرجاء إدخال رسالة صالحة.]]></phrase>
   <phrase title="please_enter_valid_navigation_id" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الرجاء إدخال معرف تنقل صالح.]]></phrase>
+  <phrase title="please_enter_valid_password" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الرجاء إدخال كلمة مرور صالحة.]]></phrase>
   <phrase title="please_enter_valid_permission_id" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الرجاء إدخال معرف تصريح صالح.]]></phrase>
   <phrase title="please_enter_valid_permission_interface_group_id" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الرجاء إدخال معرف مجموعة واجهة تصريح صحيح.]]></phrase>
   <phrase title="please_enter_valid_regular_expression" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الرجاء إدخال تعبير قياسي صالح]]></phrase>
@@ -2711,13 +2755,16 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="please_select_a_valid_type_of_moderator" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الرجاء تحديد نوع مشرف صالح.]]></phrase>
   <phrase title="please_select_at_least_one_payment_profile" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الرجاء تحديد ملف تعريف دفع واحد على الأقل.]]></phrase>
   <phrase title="please_select_at_least_one_smilie_to_export" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يرجى تحديد ابتسامة واحدة على الأقل للتصدير.]]></phrase>
+  <phrase title="please_select_at_least_one_user_group" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يرجى تحديد مجموعة مستخدم واحدة على الأقل.]]></phrase>
   <phrase title="please_select_criteria_that_must_be_met" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الرجاء تحديد المعايير التي يجب استيفاؤها.]]></phrase>
   <phrase title="please_select_valid_forum" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يرجى تحديد منتدى صالح.]]></phrase>
   <phrase title="please_select_valid_parent" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الرجاء اختيار أصل صالح.]]></phrase>
   <phrase title="please_select_valid_parent_navigation_entry" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الرجاء تحديد إدخال تنقل أصل صالح. قد لا يكون إدخال التنقل تابعا لنفسه أو لأحد توابعه.]]></phrase>
+  <phrase title="please_select_valid_parent_style" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يرجى تحديد نمط أصل صحيح. قد لا يكون النمط فرعا لنفسه أو أحد فروعه.]]></phrase>
   <phrase title="please_specify_search_query_or_name_of_member" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يرجى تحديد طلب بحث أو اسم عضو.]]></phrase>
   <phrase title="please_specify_valid_spam_forum" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يرجى التحديد منتدى صالح كهدف للمواضيع المنقولة عبر منظف السبام.]]></phrase>
   <phrase title="please_upload_valid_smilies_xml_file" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الرجاء تحميل ملف XML صالح للإبتسامات.]]></phrase>
+  <phrase title="please_upload_valid_style_xml_file" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الرجاء تحميل ملف XML صالح.]]></phrase>
   <phrase title="please_wait_x_seconds" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[من فضلك إنتظر {seconds} ثانية.]]></phrase>
   <phrase title="points" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[النقاط]]></phrase>
   <phrase title="points_and_expiry_time_editable_when_giving_warning" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[النقاط ووقت انتهاء الصلاحية قابلة للتحرير عند إعطاء الإنذار]]></phrase>
@@ -2769,19 +2816,26 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="private" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[خاص]]></phrase>
   <phrase title="privileges_and_status" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الإمتيازات و الحالة]]></phrase>
   <phrase title="proceed" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[مواصلة]]></phrase>
+  <phrase title="profile_info" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[معلومات الملف الشخصي]]></phrase>
   <phrase title="profile_post" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[مشاركة الملف الشخصي]]></phrase>
   <phrase title="profile_post_comment_content" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[محتوى تعليق مشاركة الملف الشخصي]]></phrase>
   <phrase title="profile_post_content" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[محتوى مشاركة الملف الشخصي]]></phrase>
   <phrase title="profile_post_likes" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الإعجابات بمشاركة الملف الشخصي]]></phrase>
   <phrase title="profile_posts" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[مشاركات الملف الشخصي]]></phrase>
   <phrase title="promotion_is_active" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[العرض مفعل]]></phrase>
+  <phrase title="promotion_options" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[خيارات العرض]]></phrase>
+  <phrase title="property_created_in_this_style" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تم إنشاء هذه الخاصية في هذا النمط ، ولا توجد في الأنماط الرئيسية]]></phrase>
+  <phrase title="property_customized_in_parent_style" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[القيمة المخصصة لهذه الخاصية موروثه من نمط رئيسي]]></phrase>
+  <phrase title="property_customized_in_this_style" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تم تخصيص قيمه هذه الخاصية في هذا النمط]]></phrase>
   <phrase title="provide_short_title_for_this_advertisement" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[قدم عنوانا قصيرا لهذا الإعلان، والذي سيظهر في صفحة قائمة الإعلانات.]]></phrase>
   <phrase title="provided_file_is_not_valid_image" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الملف المقدم ليس صورة صالحة.]]></phrase>
   <phrase title="provider" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[المزود]]></phrase>
   <phrase title="proxy_images" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[وكيل الصور]]></phrase>
+  <phrase title="proxy_links" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[وكيل الروابط]]></phrase>
   <phrase title="public" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[عام]]></phrase>
   <phrase title="public_templates" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[القوالب العامة]]></phrase>
   <phrase title="public_warning_text" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[نص التحذير العلني]]></phrase>
+  <phrase title="purchasable_details" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تفاصيل ممكن شرائها]]></phrase>
   <phrase title="purchase_request_contains_invalid_payment_profile" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يحتوي طلب الشراء علي ملف تعريف دفع غير صالح.]]></phrase>
   <phrase title="question" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[السؤال]]></phrase>
   <phrase title="question_and_answer_captchas" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[سؤال وجواب CAPTCHAs]]></phrase>
@@ -2853,6 +2907,7 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="remove_secondary_user_group" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[إزالة المجموعة الثانوية]]></phrase>
   <phrase title="remove_this_filter" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[إزالة هذه التصفية]]></phrase>
   <phrase title="removed_from_public_view" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تمت الإزالة من العرض العام]]></phrase>
+  <phrase title="reopen_via_admin_control_panel" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[إعادة الفتح عبر لوحة تحكم الإدارة]]></phrase>
   <phrase title="replace" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الإستبدال]]></phrase>
   <phrase title="replace_route_must_start_with_route_prefix" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يجب أن يبدأ مسار الاستبدال ببادئة المسار.]]></phrase>
   <phrase title="replace_with" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[استبدل بـ]]></phrase>
@@ -2882,16 +2937,20 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="reported_thread_title" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[محتوى تم الإبلاغ عنه: {title}]]></phrase>
   <phrase title="reports" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[التقارير]]></phrase>
   <phrase title="represents_portion_of_url_after_help_part_identify_page" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[هذا يمثل جزء من URL بعد الجزء <i>help/</i> الذي يعرف هذه الصفحة بشكل فريد. يمكنك استخدام a-z, 0-9, _ و - حروف فقط.]]></phrase>
+  <phrase title="request_password" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[طلب كلمة المرور]]></phrase>
+  <phrase title="request_password_be_emailed_to_you" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[طلب كلمة مرور لك يكون عبر البريد الالكتروني]]></phrase>
   <phrase title="requested_conversation_not_found" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعذر العثور على المحادثة المطلوبة.]]></phrase>
   <phrase title="requested_forum_not_found" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعذر العثور على المنتدى المطلوب.]]></phrase>
   <phrase title="requested_member_not_found" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعذر العثور على العضو المطلوب.]]></phrase>
   <phrase title="requested_page_not_found" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعذر العثور علي الصفحة المطلوبة.]]></phrase>
   <phrase title="requested_report_not_found" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعذر العثور على التقرير المطلوب.]]></phrase>
+  <phrase title="requested_style_property_group_not_found" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعذر العثور علي مجموعة خصائص الستايل المطلوبة.]]></phrase>
   <phrase title="requested_template_not_found" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعذر العثور على القالب المطلوب.]]></phrase>
   <phrase title="requested_thread_not_found" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعذر العثور على الموضوع المطلوب.]]></phrase>
   <phrase title="required_admin_permission" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تصريح الإدارة المطلوب]]></phrase>
   <phrase title="required_fields_will_always_be_shown_during_registration" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الحقول المطلوبة سيتم عرضها دائماً عند التسجيل.]]></phrase>
   <phrase title="resend_account_confirmation" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[إعادة إرسال تأكيد الحساب]]></phrase>
+  <phrase title="reset_password" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[إعادة تعيين كلمة المرور]]></phrase>
   <phrase title="reset_poll" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[إعادة تعيين الاستطلاع]]></phrase>
   <phrase title="resetting_notice_display_to_all_users_matching_not_restore_guests" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[سيؤدي إعادة تعيين هذه الملاحظة إلى عرضها على جميع المستخدمين الذين يطابقون معايير الملاحظة، حتى لو كانوا قد استبعدوها سابقا. لاحظ أن هذا لن يعيد الملاحظة إلى الضيوف الذين استبعدوها.]]></phrase>
   <phrase title="resolved" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تم الحل]]></phrase>
@@ -2910,6 +2969,7 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="route_filters" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[موجهات المسار]]></phrase>
   <phrase title="route_filters_allow_you_to_change_standard_urls" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[مستبدلات المسار تسمح لك بتغيير عناوين URL العادية التي تم إنشاؤها بواسطة XenForo.]]></phrase>
   <phrase title="route_type" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[نوع المسار]]></phrase>
+  <phrase title="run_at_hours" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تشغيل في الساعات]]></phrase>
   <phrase title="run_at_minutes" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تشغيل في الدقائق]]></phrase>
   <phrase title="run_dedicated_staff_query_explain" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[عندما يكون هناك عدد أكبر مما يسمح بعرضه من المستخدمين المتصلين (انظر أعلاه)، قد يتم حذف بعض أفردا طاقم الإدارة المتصلين. يؤدي تمكين هذا الخيار إلى تشغيل استعلام إضافي عند الضرورة، لضمان عرض كافة أفراد الطاقم.]]></phrase>
   <phrase title="run_dedicated_staff_query_when_necessary" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تشغيل استعلام مخصص لطاقم الإدارة عند الضرورة]]></phrase>
@@ -2958,9 +3018,11 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="selected_tab_criteria_explain" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[معرف علامة تبويب التنقل المحددة، مثل <b>forums</b>، <b>members</b> أو <b>help</b>.]]></phrase>
   <phrase title="selected_user_groups" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[المجموعات المحددة]]></phrase>
   <phrase title="selecting_this_option_will_permanently_and_irreversibly_delete_item" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[سيؤدي تحديد هذا الخيار إلى حذف العنصر نهائيا ولا رجعة فيه.]]></phrase>
+  <phrase title="send_password_reset" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[إرسال إعادة تعيين كلمة المرور]]></phrase>
   <phrase title="send_resolution_rejection_alert" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[إرسال تنبيه بالقرار / الرفض]]></phrase>
   <phrase title="separate_names_with_comma" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[أفصل بين الأسماء بفاصلة.]]></phrase>
   <phrase title="server_errors_have_been_logged" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تم تسجيل بعض أخطاء السيرفر. يجب عليك استعراض هذه الاخطاء.]]></phrase>
+  <phrase title="set_new_password" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعيين كلمة مرور جديدة]]></phrase>
   <phrase title="set_permissions_for_user" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعيين التصاريح للمستخدم]]></phrase>
   <phrase title="set_primary_user_group" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعيين مجموعة المستخدم الأساسية]]></phrase>
   <phrase title="set_thread_status" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعيين حالة الموضوع]]></phrase>
@@ -3019,6 +3081,8 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="soft_delete_threads" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[حذف بسيط للمواضيع]]></phrase>
   <phrase title="some_fields_contained_unexpected_data_try_again" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[بعض الحقول تحتوي على بيانات غير متوقعة. الرجاء المحاولة مرة أخرى أو اتصل بالمدير.]]></phrase>
   <phrase title="something_went_wrong_please_try_again" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[حدث خطأ ما. الرجاء المحاولة مرة أخرى أو اتصل بالمسؤول.]]></phrase>
+  <phrase title="sorry_you_must_wait_longer_to_create_account" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[عذرا، يجب الانتظار لفترة أطول لإنشاء حساب.]]></phrase>
+  <phrase title="sorry_you_too_young_to_create_an_account" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[عذرا، أنت صغير جدا لإنشاء حساب.]]></phrase>
   <phrase title="sort" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[ترتيب]]></phrase>
   <phrase title="sort_admin_navigation" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[ترتيب تنقل الإدارة]]></phrase>
   <phrase title="sort_by" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[فرز بواسطة]]></phrase>
@@ -3076,6 +3140,10 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="stopforumspam_reject_registration_threshold_explain" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[حديد عدد علامات التحذير (1-3) المطلوبة لرفض التسجيل تلقائياً. يجب أن يكون هذا الرقم أكبر من أو يساوي قيمة عتبة الإدارة أعلاه.]]></phrase>
   <phrase title="stopforumspam_submit_information" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[إرسال معلومات عضو السبام إلى StopForumSpam باستخدام مفتاح API]]></phrase>
   <phrase title="stopforumspam_submit_information_explain" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[إذا كان لديك مفتاح API من StopForumSpam، قد يكون لديك نشاط لأعضاء سبام على موقعك عندها سيتم تلقائيا إرسال تقرير إلى StopForumSpam من أجل تحسين قاعدة البيانات للمستخدمين الآخرين. سيؤدي هذا الخيار إلى الإبلاغ عن المستخدمين المحظورين عبر منظف السبام.]]></phrase>
+  <phrase title="store_drafts_for_x_hours" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تخزين المسودات لمدة X ساعات]]></phrase>
+  <phrase title="stored_account_provider_does_not_match_this_request" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[لا يطابق موفر الحساب المخزن هذا الطلب. الرجاء المحاولة مره أخرى.]]></phrase>
+  <phrase title="style" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الستايل]]></phrase>
+  <phrase title="style_chooser" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[منتقي الستايلات]]></phrase>
   <phrase title="style_contains_no_customized_templates_or_style_properties" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[لم يتم تعديل أي قالب أو خاصية في هذا الستايل.]]></phrase>
   <phrase title="style_prop.memberHeader" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[هيدر الملف الشخصي للعضو]]></phrase>
   <phrase title="style_prop.memberHeaderName" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[هيدر الملف الشخصي للعضو - الإسم]]></phrase>
@@ -3092,7 +3160,10 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="style_prop_desc.showFooterLogo" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[إذا تم تمكينه، فسيتم عرض شعار الموقع الذي حددته في الهيدر في العمود الأخير بروابط الفوتر.]]></phrase>
   <phrase title="style_prop_group.member" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الملفات الشخصية للأعضاء]]></phrase>
   <phrase title="style_prop_group_desc.member" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[العناصر الخاصة بالصفحة التي يتم فيها عرض المعلومات الكاملة للمستخدم يتم تنسيقها هنا.]]></phrase>
+  <phrase title="style_properties" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[خصائص الستايل]]></phrase>
   <phrase title="style_properties_in_style_can_not_be_modified" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[لا يمكن تعديل خصائص الستايل بهذا النمط. الرجاء المحاولة مع ستايل آخر.]]></phrase>
+  <phrase title="style_property" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[خاصية الستايل]]></phrase>
+  <phrase title="styles" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الستايلات]]></phrase>
   <phrase title="sub_forums" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[المنتديات الفرعية]]></phrase>
   <phrase title="success" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تم]]></phrase>
   <phrase title="super_administrator" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[مدير مميز]]></phrase>
@@ -3102,6 +3173,7 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="super_moderator_can_moderate_entire_board" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يمكن للمشرف الممتاز إدارة المنتدى بأكمله.]]></phrase>
   <phrase title="super_moderators" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[المشرفين الممتازين]]></phrase>
   <phrase title="support" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الدعم]]></phrase>
+  <phrase title="sure_you_want_to_resend_account_confirmation_email" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[هل أنت متأكد من أنك تريد إعادة إرسال بريد التفعيل؟ أي رسائل تفعيل سابقة لن تعمل طويلاً. هذه الرسالة سوف ترسل إلى: {email}.]]></phrase>
   <phrase title="template" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[القالب]]></phrase>
   <phrase title="template_contains" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[القالب يحتوي على]]></phrase>
   <phrase title="template_contents" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[محتويات القالب]]></phrase>
@@ -3154,6 +3226,10 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="text_direction" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[اتجاه النص]]></phrase>
   <phrase title="text_replacement" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[نص الاستبدال]]></phrase>
   <phrase title="text_to_replace" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[النص للإستبدال]]></phrase>
+  <phrase title="thank_you_for_purchasing_account_upgrade_at_x" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[نشكرك على شراء ترقية حساب في <a href="{board_url}">{board_title}</a>.]]></phrase>
+  <phrase title="thank_you_for_purchasing_this_upgrade" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[شكرا لك على شراء هذه الترقية.<br />
+<br />
+عند الموافقة على الدفع، سيتم ترقية حسابك.]]></phrase>
   <phrase title="thank_you_for_reporting_this_content" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[شكرا على الإبلاغ عن هذا المحتوى.]]></phrase>
   <phrase title="thank_you_for_your_purchase_questions_contact_us" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[شكرا لك على الشراء. إذا كان لديك أي أسئلة، يرجى <a href="{contacturl}">الاتصال بنا
 </a>.]]></phrase>
@@ -3192,6 +3268,7 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
 رسالة الخطأ: <span class="exceptionMessage">{message}</span>]]></phrase>
   <phrase title="there_x_missing_files_or_files_with_unexpected_contents" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[هناك {total_missing} ملفات مفقودة أو ملفات مع محتويات غير متوقعة. يجب عليك مراجعتها.]]></phrase>
   <phrase title="these_filters_will_be_used_by_default_whenever_you_return" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[سيتم استخدام عوامل التصفية هذه بشكل افتراضي كلما عدت.]]></phrase>
+  <phrase title="this_account_cannot_be_confirmed_without_email_address" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[لا يمكن تأكيد هذا الحساب بدون عنوان بريد إلكتروني.]]></phrase>
   <phrase title="this_account_is_already_associated_with_another_member" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[هذا الحساب مرتبط مسبقا بعضو آخر. يمكن تغيير هذا الاقتران فقط من داخل هذا الحساب.]]></phrase>
   <phrase title="this_accounts_email_is_already_associated_with_another_member" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[البريد الكتروني الخاص بهذا الحساب مرتبط بالفعل بعضو آخر. الرجاء تسجيل الدخول إلى ذلك الحساب لربط هذا الحساب.]]></phrase>
   <phrase title="this_add_on_cannot_be_uninstalled_like_files_missing" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[لا يمكن إلغاء تثبيت هذه الوظيفة الإضافية. ويرجح ذلك لأن ملفات مطلوبة مفقودة.]]></phrase>
@@ -3218,6 +3295,7 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="this_is_used_to_separate_labels_from_their_associated_values" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يتم استخدام هذا للفصل بين التسميات و القيم المقترنة بها.]]></phrase>
   <phrase title="this_member_has_not_been_warned" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[لم يتم تحذير هذا العضو.]]></phrase>
   <phrase title="this_message_is_awaiting_moderator_approval_and_is_invisible_to_normal" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تنتظر هذه الرسالة موافقة المشرف، وهي غير مرئية للزوار العاديين.]]></phrase>
+  <phrase title="this_password_reset_was_requested_by_admin_of_x_on_your_behalf" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تم طلب إعادة تعيين كلمة المرور هذه نيابة عنك بواسطة مدير في {board_title}.]]></phrase>
   <phrase title="this_payment_profile_cannot_be_deleted_because_it_is_in_use" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[لا يمكن حذف ملف تعريف الدفع هذا لأنه قيد الاستخدام من قبل المشترين التاليين]]></phrase>
   <phrase title="this_poll_will_close" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[سيتم إغلاق هذا الاستطلاع]]></phrase>
   <phrase title="this_report_is_currently_assigned_to_x" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تم تعيين هذا التقرير حاليا لـ {assigned_username}.]]></phrase>
@@ -3227,11 +3305,13 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="this_template_does_not_have_parent_version" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[لا يحتوي هذا القالب على إصدار أصل.]]></phrase>
   <phrase title="this_template_modification_does_not_match_any_templates" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[لا يتطابق تعديل القالب هذا مع أي قوالب.]]></phrase>
   <phrase title="this_thread" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[هذا الموضوع]]></phrase>
+  <phrase title="this_user_is_already_banned" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[هذا المستخدم محظور بالفعل. يرجى تعديل أو حذف الحظر الحالي بدلا من ذلك.]]></phrase>
   <phrase title="this_user_is_already_rejected" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تم رفض هذا المستخدم بالفعل.]]></phrase>
   <phrase title="this_user_is_already_reply_banned_from_this_thread" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[هذا المستخدم محظور بالفعل من الرد بهذا الموضوع.]]></phrase>
   <phrase title="this_user_is_an_admin_or_moderator_choose_another" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[هذا المستخدم مدير أو مشرف. الرجاء اختيار مستخدم آخر.]]></phrase>
   <phrase title="this_user_not_receive_promotion_even_if_meets_requirements" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[هذا المستخدم لن يتلقى هذا العرض حتى لو استوفى الشروط المطلوبة.]]></phrase>
   <phrase title="this_user_still_able_to_view_thread_not_reply" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[هذا المستخدم سوف يكون قادرا على مشاهدة هذا الموضوع، ولكن لن يكون قادرا على الرد حتى انتهاء فترة الحظر.]]></phrase>
+  <phrase title="this_user_will_be_deleted" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[سيتم حذف هذا المستخدم.]]></phrase>
   <phrase title="this_user_will_receive_promotion_when_meets_requirements" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[سيتلقى هذا المستخدم هذا العرض عندما يستوفي المتطلبات.]]></phrase>
   <phrase title="this_will_allow_other_people_to_see_what_page_you_currently_viewing" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[هذا الإختيار يسمح لبقية الأعضاء بمشاهدة الصفحة التي تقوم بمشاهدتها حاليا.]]></phrase>
   <phrase title="this_will_allow_other_people_to_see_when_you_online" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[هذا سوف يسمح للآخرين أن يروك عندما تكون متصلاً.]]></phrase>
@@ -3243,6 +3323,7 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="this_will_delete_all_conversations_started_by_this_user" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[سيؤدي هذا إلى حذف جميع المحادثات التي بدأها هذا المستخدم. لا يمكن التراجع عن هذا الإجراء.]]></phrase>
   <phrase title="this_will_not_be_shown_to_member_receiving_warning" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[لن يظهر هذا للعضو الذي يتلقى التحذير.]]></phrase>
   <phrase title="this_will_not_remove_any_content_this_user_has_already_created" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[لن يؤدي هذا إلى إزالة أي محتوى أنشأه هذا المستخدم من قبل.]]></phrase>
+  <phrase title="this_will_test_x_connected_account_provider_explain" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[سيقوم هذا باختبار موفر الحساب المتصل {title}. يجب ان يكون لديك حساب {title} لتنفيذ هذا الإختبار.]]></phrase>
   <phrase title="thousands_separator" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[فاصل الآلاف]]></phrase>
   <phrase title="thread" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الموضوع]]></phrase>
   <phrase title="thread_author" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[كاتب الموضوع]]></phrase>
@@ -3277,10 +3358,13 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="time_zone" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[المنطقة الزمنية]]></phrase>
   <phrase title="title" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[العنوان]]></phrase>
   <phrase title="title_contains" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[العنوان يحتوي على]]></phrase>
+  <phrase title="title_count" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[جمع في العنوان]]></phrase>
+  <phrase title="title_count_and_icon_indicator" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الجمع في العنوان والمؤشر على الإيقونة]]></phrase>
   <phrase title="title_template" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[عنوان القالب]]></phrase>
   <phrase title="to_access_this_page_you_must_first_confirm_your_password" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[للوصول إلى هذه الصفحة، يجب عليك أولاً تأكيد كلمة المرور الخاصة بك.]]></phrase>
   <phrase title="to_associate_existing_account_first_log_in" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[للربط بحساب موجود، يجب عليك أولا تسجيل الدخول إلى هذا الحساب.]]></phrase>
   <phrase title="to_associate_existing_account_first_log_in_start_via_connected_accounts" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[للاقتران بحساب موجود، يجب عليك أولا تسجيل الدخول إلى هذا الحساب ثم بدء تشغيل الإقتران عن طريق <a href="{link}">منطقه الحسابات المرتبطة</a>.]]></phrase>
+  <phrase title="to_confirm_your_identity_we_have_sent_email_to_x" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[لتأكيد هويتك، أرسلنا رسالة إلكترونية إلى {email} ندعوك فيها لإنشاء كلمة مرور. بعد اتباع هذا الرابط، يرجى إدخال كلمة المرور الجديدة أدناه.]]></phrase>
   <phrase title="today_at_x" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[اليوم في {time}]]></phrase>
   <phrase title="too_many_poll_responses_have_been_entered" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تم إدخال عدد كبير جدا من أجوبة الاستطلاع. يرجى إزالة بعضها.]]></phrase>
   <phrase title="tool_helps_diagnose_errors_relating_to_image_proxy_system" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تساعد هذه الأداة في تشخيص الأخطاء المتعلقة بنظام وكيل الصورة من خلال تقديم معلومات أكثر تفصيلا مما يمكن تقديمه عند عرض الصورة.]]></phrase>
@@ -3290,6 +3374,7 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="total_queries" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[مجموع الإستعلامات]]></phrase>
   <phrase title="total_time" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[إجمالي الوقت]]></phrase>
   <phrase title="translate_phrases" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[ترجمة العبارات]]></phrase>
+  <phrase title="transmogrification_reset_control" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[التحكم في إعادة ضبط النقل]]></phrase>
   <phrase title="trophies" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الجوائز]]></phrase>
   <phrase title="trophies_awarded_to_x" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الجوائز التي منحت لـ {name}]]></phrase>
   <phrase title="trophy_options" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[خيارات الجائزة]]></phrase>
@@ -3338,9 +3423,11 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="uninstall" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[إزالة]]></phrase>
   <phrase title="uninstalling" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تتم الإزالة]]></phrase>
   <phrase title="units_days" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يوم]]></phrase>
+  <phrase title="units_hours" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[ساعة]]></phrase>
   <phrase title="units_minutes" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[دقيقة]]></phrase>
   <phrase title="units_pixels" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[بكسل]]></phrase>
   <phrase title="units_seconds" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[ثواني]]></phrase>
+  <phrase title="unknown_account" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[حساب غير معروف]]></phrase>
   <phrase title="unknown_content" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[محتوى غير معروف]]></phrase>
   <phrase title="unknown_member" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[عضو غير معروف]]></phrase>
   <phrase title="unknown_payment_profile" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[ملف تعريف دفع غير معروف]]></phrase>
@@ -3380,6 +3467,7 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="use_forum_language_preference" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[استخدام تفضيلات اللغة في المنتدى]]></phrase>
   <phrase title="use_gravatar" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[استخدام Gravatar]]></phrase>
   <phrase title="use_negative_one_specify_no_max" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[إستخدم -1 لجعلها بدون حد أقصى.]]></phrase>
+  <phrase title="use_oembed" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[استخدام oEmbed]]></phrase>
   <phrase title="use_option_and_text_in_custom_bb_code" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[إستخدم {option} للإشارة الى المحتوى داخل خيار الوسم option (إذا قدم) و {text} للإشارة الى المحتوى بدون هذا الوسم.]]></phrase>
   <phrase title="use_php_date_format" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[استخدام <a href="http://php.net/manual/en/function.date.php" target="_blank">تنسيق التاريخ</a> في PHP]]></phrase>
   <phrase title="use_php_money_format" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[استخدام <a href="http://php.net/manual/en/function.money-format.php" target="_blank">تنسيق العملة</a> في PHP]]></phrase>
@@ -3389,14 +3477,22 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="use_this_to_disable_member_stat_from_showing_on_members_page" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[استخدم هذا لتعطيل ظهور إحصائية العضو في صفحة الأعضاء.]]></phrase>
   <phrase title="use_this_to_temporarily_disable_this_notice" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[استخدم هذا لتعطيل هذه الملاحظة مؤقتاً.]]></phrase>
   <phrase title="user" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[المستخدم]]></phrase>
+  <phrase title="user_account_approved_body_html" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[<p>{username}، تمت الموافقة على الحساب الذي سجلته في {board} يمكنك الآن زيارة موقعنا كعضو مسجل. </p>]]></phrase>
+  <phrase title="user_account_approved_subject" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تمت الموافقة على الحساب في {board_title}]]></phrase>
   <phrase title="user_account_rejected_body_html" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[<p>مرحبا {username}، للأسف، الحساب الذي سجلته في {board} لم يستوف متطلبات العضوية. لم يعد بإمكانك الدخول إلى حسابك.</p>]]></phrase>
   <phrase title="user_account_rejected_subject" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[حساب مرفوض في {board_title}]]></phrase>
   <phrase title="user_avatars" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الصور الرمزية للمستخدم]]></phrase>
   <phrase title="user_banner_styling" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تنسيق بنر المستخدم]]></phrase>
   <phrase title="user_banner_text" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[نص بنر المستخدم]]></phrase>
   <phrase title="user_birthday_is_today" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[ميلاد المستخدم هو اليوم]]></phrase>
+  <phrase title="user_change_logs" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[سجلات تغيير المستخدم]]></phrase>
   <phrase title="user_criteria" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[معايير المستخدم]]></phrase>
+  <phrase title="user_details" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تفاصيل المستخدم]]></phrase>
+  <phrase title="user_editable" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[المستخدم قابل للتعديل]]></phrase>
+  <phrase title="user_email_confirmation_body_html" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[<p>{username}، لإكمال عملية التسجيل أو إعادة تنشيط حسابك في {board}، يجب تأكيد عنوان بريدك الإلكتروني بالنقر على الزر أدناه.</p>]]></phrase>
+  <phrase title="user_group" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[مجموعة المستخدم]]></phrase>
   <phrase title="user_group_permissions" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تصاريح المجموعات]]></phrase>
+  <phrase title="user_group_promotions" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[عروض مجموعة المستخدم]]></phrase>
   <phrase title="user_groups" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[مجموعات المستخدم]]></phrase>
   <phrase title="user_has_at_least_x_trophy_points" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[المستخدم لديه X من نقاط الجائزة على الأقل]]></phrase>
   <phrase title="user_has_avatar" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[المستخدم لديه صورة رمزية]]></phrase>
@@ -3410,6 +3506,7 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="user_has_posted_at_least_x_messages" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[المستخدم نشر X مشاركات على الأقل]]></phrase>
   <phrase title="user_has_posted_no_more_than_x_messages" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[المستخدم لم ينشر أكثر من X مشاركة]]></phrase>
   <phrase title="user_has_received_at_least_x_likes" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[المستخدم تلقى X من الإعجابات على الأقل]]></phrase>
+  <phrase title="user_id" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[معرف المستخدم]]></phrase>
   <phrase title="user_info" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[معلومات المستخدم]]></phrase>
   <phrase title="user_is_administrator" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[إذا كان مديراً]]></phrase>
   <phrase title="user_is_associated_with_any_of_selected_connected_account_providers" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يرتبط المستخدم بأي من موفري الحسابات الذين تم تحديدهم]]></phrase>
@@ -3422,11 +3519,15 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="user_is_moderator" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[إذا كان مشرفاً]]></phrase>
   <phrase title="user_is_not_member_of_any_of_selected_user_groups" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[المستخدم ليس عضوا في أي مجموعة من المجموعات المحددة]]></phrase>
   <phrase title="user_like_message_ratio_is_at_least" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[المستخدم لديه على الأقل معدل إعجاب على المشاركات]]></phrase>
+  <phrase title="user_limit" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[حدود المستخدم]]></phrase>
   <phrase title="user_lost_password_body_html" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[<p>مرحبا {username}، تم إستلام طلب إعادة ضبط كلمة المرور الخاصه بك في {board}، نريد منك أن تضغط على الزر أدناه. هذا من شأنه أن يتيح لك اختيار كلمة مرور جديدة.</p>]]></phrase>
   <phrase title="user_lost_password_reset_body_html" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[<p>مرحبا {username}، تم إعادة ضبط كلمة المرور الخاصة بك في {board}. يمكنك تسجيل الدخول باستخدام كلمة المرور الجديدة.</p>]]></phrase>
+  <phrase title="user_lost_password_reset_subject" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[{boardTitle} - إعادة تعيين كلمة المرور]]></phrase>
+  <phrase title="user_lost_password_subject" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[{boardTitle} - طلب إعادة تعيين كلمة المرور]]></phrase>
   <phrase title="user_name" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[إسم المستخدم]]></phrase>
   <phrase title="user_name_and_password" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[اسم المستخدم و كلمة السر]]></phrase>
   <phrase title="user_name_css" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تنسيق إسم المستخدم CSS]]></phrase>
+  <phrase title="user_name_input" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[إدخال اسم المستخدم]]></phrase>
   <phrase title="user_name_match_regular_expression" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[اسم المستخدم يطابق التعبير القياسي]]></phrase>
   <phrase title="user_name_or_email" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[اسم المستخدم أو البريد الالكتروني]]></phrase>
   <phrase title="user_names" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[أسماء المستخدمين]]></phrase>
@@ -3434,10 +3535,14 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="user_profile_and_options" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الملف الشخصي للمستخدم وخياراته]]></phrase>
   <phrase title="user_receiving_warning_can_be_added_to_groups_until_expiry" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يمكن إضافة المستخدم المتلقي لهذا الإنذار لمجموعة محددة إلى أن تنتهي مدة الإنذار.]]></phrase>
   <phrase title="user_referred_from_search" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[مستخدم وصل إلى هذا الموقع من محرك بحث]]></phrase>
+  <phrase title="user_registration_ip" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[IP تسجيل المستخدم]]></phrase>
   <phrase title="user_registrations" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تسجيلات المستخدمين]]></phrase>
+  <phrase title="user_state" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[حالة المستخدم]]></phrase>
   <phrase title="user_state_is" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[حالة المستخدم هي]]></phrase>
   <phrase title="user_title_ladder" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[سلم عنوان المستخدم]]></phrase>
   <phrase title="user_title_override" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تجاوز عنوان المستخدم]]></phrase>
+  <phrase title="user_upgrades" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[ترقيات المستخدم]]></phrase>
+  <phrase title="user_value" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[قيمة المستخدم]]></phrase>
   <phrase title="user_who_received_this_warning_no_longer_exists" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[المستخدم الذي تلقى هذا التحذير لم يعد موجودا.]]></phrase>
   <phrase title="username_contains" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[إسم المستخدم يحتوي على]]></phrase>
   <phrase title="username_criteria_explain" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[إذا كنت تريد مطابقة مستخدمين محددين، فيمكنك إدخال الأسماء الخاصة بهم هنا، مفصولة بفواصل.]]></phrase>
@@ -3451,12 +3556,16 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="users_may_hide_this_notice_when_they_have_read_it" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يمكن للمستخدمين إخفاء هذه الملاحظة عند قراءتها.]]></phrase>
   <phrase title="users_redirected_to_url_when_click_on_link_forum" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[سيتم إعادة توجيه المستخدمين إلى هذا الرابط عند النقر على منتدى الارتباط هذا.]]></phrase>
   <phrase title="users_with_permissions_set" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[المستخدمون الذين عُينت لهم تصاريح]]></phrase>
+  <phrase title="utc_plus_0700_bangkok" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[(UTC+07:00) بانكوك، هانوي، جاكرتا]]></phrase>
+  <phrase title="utc_plus_0900_tokyo" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[(UTC+09:00) أوساكا، سابورو، طوكيو]]></phrase>
+  <phrase title="utc_plus_1000_vladivostok" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[(UTC+10:00) فلاديفوستوك]]></phrase>
   <phrase title="valid" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[مفعل]]></phrase>
   <phrase title="validator" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[المصادقة]]></phrase>
   <phrase title="value_grouping" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تجميع القيمة]]></phrase>
   <phrase title="value_grouping_explain" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[عندما يتم إدراجها، إذا لم يكن لدى هذه الخاصية نفس قيمة التجميع مثل الخاصية السابقة، سيتم ادراج فاصل مرئي.]]></phrase>
   <phrase title="value_represents_internal_value_for_choice_text_is_displayed" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[القيمة تمثل القيمة الداخلية للإختيار. يظهر نص الحقل عندما يتم عرض الحقل. يجب عدم تغيير قيمة الحقل إذا قام أي مستخدم بتحديد هذا الاختيار،  إذا قمت بذلك، سوف يفقد المستخدمين اختيارهم.]]></phrase>
   <phrase title="values_represent_daily_averages_within_each_time_period" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تمثل قيم المعدلات اليومية في كل فترة زمنية.]]></phrase>
+  <phrase title="via_twitter_account" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[عبر الحساب: @...]]></phrase>
   <phrase title="view" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[مشاهدة]]></phrase>
   <phrase title="view_all_available_trophies" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[مشاهدة كافة الجوائز المتاحة]]></phrase>
   <phrase title="view_all_your_conversations" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[مشاهدة كافة المحادثات الخاصة بك]]></phrase>
@@ -3599,12 +3708,15 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="widget_positions" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[مواضع القطع]]></phrase>
   <phrase title="widgets" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[القطع]]></phrase>
   <phrase title="width" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[العرض]]></phrase>
+  <phrase title="with_people" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[مع]]></phrase>
   <phrase title="with_selected" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[مع المحدد]]></phrase>
   <phrase title="x_days" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[{days} أيام]]></phrase>
   <phrase title="x_for_one_month" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[{cost} لشهر واحد]]></phrase>
   <phrase title="x_for_y_months" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[{cost} لـ {length} شهور]]></phrase>
   <phrase title="x_has_not_been_awarded_any_trophies_yet" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[لم يتحصل {name} على أي جوائز حتى الآن.]]></phrase>
   <phrase title="x_has_not_posted_any_content_recently" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[لم ينشر {name} أي مشاركات مؤخرا.]]></phrase>
+  <phrase title="x_has_not_provided_any_additional_information" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[لم يقدم {name} أي معلومات إضافية.]]></phrase>
+  <phrase title="x_hours" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[{count} ساعات]]></phrase>
   <phrase title="x_liked_your_message_in_the_conversation_y" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[{name} أعجبك برسالتك في المحادثة {title}.]]></phrase>
   <phrase title="x_liked_your_post_in_the_thread_y" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[أعجب {name} بمشاركتك في الموضوع {title}.]]></phrase>
   <phrase title="x_liked_ys_message_in_the_conversation_z" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[{name} أعجب <a {posterParams}>{poster} برسالة</a> في المحادثة {title}.]]></phrase>
@@ -3627,6 +3739,7 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="xs_latest_activity" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[{name} آخر نشاط]]></phrase>
   <phrase title="xs_reported_content" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[قام {name} بالتبليغ عن محتوى]]></phrase>
   <phrase title="yes" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[نعم]]></phrase>
+  <phrase title="yes_with_email" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[نعم، مع البريد الإلكتروني]]></phrase>
   <phrase title="yesterday_at_x" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الأمس في {time}]]></phrase>
   <phrase title="you_already_following_this_member" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[أنت تتابع هذا العضو بالفعل.]]></phrase>
   <phrase title="you_already_ignoring_this_member" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[أنت بالفعل تتجاهل هذا العضو.]]></phrase>
@@ -3651,6 +3764,7 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="you_have_posted_x_messages_in_this_thread" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[لقد نشرت {count} رسالة في هذا الموضوع]]></phrase>
   <phrase title="you_may_also_use_phrase_title_which_will_be_replaced" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يمكنك أيضا استخدام <span dir="ltr">{{ phrase('phrase_title') }}</span> و التي سيتم استبدالها بنص العبارة الموجودة في اللغة الخاصة بالمستلمين.]]></phrase>
   <phrase title="you_may_click_on_update_to_edit_it" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يمكنك النقر على التحديث لتحريره.]]></phrase>
+  <phrase title="you_may_control_which_add_ons_re_enabled_from_list_below" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يمكنك التحكم في الإضافات التي تتم إعادة تمكينها من القائمة أدناه]]></phrase>
   <phrase title="you_may_enter_partial_ip_v4_v6" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يمكنك إدخال عناوين IP (بتنسيق v4 أو v6 ). عناوين IPv4 الجزئية يمكن إدخالها في شكل <span dir="ltr">192.168.*</span> أو <span dir="ltr">192.168.1.1/16</span>. و يمكن إدخال عناوين IPv6 الجزئية في شكل <span dir="ltr">2001:db8::/32</span>.]]></phrase>
   <phrase title="you_may_invite_up_to_x_members" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يمكنك دعوة ما يصل إلى {number} أعضاء.]]></phrase>
   <phrase title="you_may_not_delete_important_default_user_groups" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[نظرا لأهميتها، لا يمكنك حذف مجموعات المستخدم الإفتراضية.]]></phrase>
@@ -3659,6 +3773,8 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="you_may_not_report_this_content" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[لا تستطيع الإبلاغ عن هذا المحتوى.]]></phrase>
   <phrase title="you_may_not_start_a_conversation_with_the_following_recipients_x" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[لا تستطيع بدء محادثة مع المستلمين التاليين: {names}.]]></phrase>
   <phrase title="you_may_only_apply_x_tags_to_this_content" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يمكنك تطبيق {count} فقط من الوسوم على هذا المحتوى.]]></phrase>
+  <phrase title="you_may_only_follow_x_people" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يمكنك متابعة ما مجموعه {count} من الأشخاص فقط.]]></phrase>
+  <phrase title="you_may_only_ignore_x_people" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يمكنك تجاهل {count} من الأشخاص فقط.]]></phrase>
   <phrase title="you_may_only_invite_x_members_to_join_this_conversation" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يمكنك دعوه {count} أعضاء فقط للانضمام إلى هذه المحادثة.]]></phrase>
   <phrase title="you_may_select_up_to_x_choices" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يمكنك تحديد ما يصل إلى {max} من الخيارات.]]></phrase>
   <phrase title="you_may_use_bb_code" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يمكنك استخدام BB code]]></phrase>
@@ -3675,6 +3791,8 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
 <br />
 التحقق بخطوتين هو زيادة أمان للحساب الخاص بك و ذلك بمطالبتك بتوفير رمز إضافي لإكمال عملية تسجيل الدخول. إذا تم اختراق كلمة المرور الخاصة بك في أي وقت مضى، هذا التحقق سوف يساعد على منع الوصول الغير مصرح به إلى حسابك.]]></phrase>
   <phrase title="you_must_enter_your_current_password_to_validate_this_request" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يجب عليك إدخال كلمة مرورك الحالية للتحقق من صحة هذه العملية.]]></phrase>
+  <phrase title="you_must_have_valid_email_account_confirmed" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يجب أن يكون لديك بريد إلكتروني صالح ويجب أن يتم تأكيد حسابك بشكل كامل.]]></phrase>
+  <phrase title="you_must_provide_account_number_and_secret_word_to_set_up_this_profile" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يجب توفير رقم حساب وكلمه سر لإعداد ملف تعريف الدفع هذا.]]></phrase>
   <phrase title="you_must_provide_primary_paypal_account_email_to_set_up_this_payment" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يجب تقديم البريد الإكتروني الرئيسي لحساب PayPal لإعداد ملف الدفع هذا.]]></phrase>
   <phrase title="you_must_select_payment_provider_to_continue" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يجب تحديد موفر خدمة الدفع للمتابعة.]]></phrase>
   <phrase title="you_must_verify_existing_password_before_changing" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[لأسباب تتعلق بالأمان، يجب التحقق من كلمة مرورك الحالية قبل ن تقوم بتعيين كلمة مرور جديدة.]]></phrase>
@@ -3700,8 +3818,19 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="you_sure_you_want_to_update_notification_settings_for_all_threads" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[هل أنت متأكد أنك تريد تحديث إعدادات إشعار البريد الإلكتروني لكافة المواضيع؟]]></phrase>
   <phrase title="you_unable_reply_to_thread_x_until_expiry_y" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[سوف تتمكن من الرد على الموضوع {title} حتى {expiry}.]]></phrase>
   <phrase title="you_will_receive_emails_sent_by_administrator_to_all_members" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[سوف تتلقى نسخة من رسائل البريد الإلكتروني المرسلة من قبل المدير لجميع أعضاء الموقع.]]></phrase>
+  <phrase title="your_account" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[حسابك]]></phrase>
+  <phrase title="your_account_already_has_password" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[حسابك يحتوي بالفعل على كلمة مرور.]]></phrase>
+  <phrase title="your_account_could_not_be_confirmed" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعذر تأكيد حسابك.]]></phrase>
+  <phrase title="your_account_does_not_currently_have_password" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[لا يحتوي حسابك حاليا على كلمة مرور.]]></phrase>
+  <phrase title="your_account_does_not_currently_have_password_confirm_generate" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[لا يحتوي حسابك حاليا على كلمة مرور. هل تريد بالتأكيد إنشاء كلمة مرور جديدة؟ سيتم إرسالها بالبريد الإلكتروني إلى  {email}.]]></phrase>
+  <phrase title="your_account_does_not_have_admin_privileges" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[لا يمتلك حسابك امتيازات المدير.]]></phrase>
+  <phrase title="your_account_does_not_require_confirmation" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[حسابك لا يتطلب تأكيداً.]]></phrase>
+  <phrase title="your_account_has_been_disabled" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تم تعطيل حسابك.]]></phrase>
+  <phrase title="your_account_has_been_disabled_please_contact_us" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تم تعطيل حسابك. إذا كنت تريد إعادة تنشيط حسابك، فالرجاء <a href="{link}">الاتصال بنا</a>.]]></phrase>
   <phrase title="your_account_has_been_rejected" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تم رفض حسابك.]]></phrase>
   <phrase title="your_account_has_been_rejected_for_following_reason_x" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تم رفض حسابك للسبب التالي: {reason}.]]></phrase>
+  <phrase title="your_account_has_temporarily_been_locked_due_to_failed_login_attempts" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تم قفل حسابك مؤقتا بسبب محاولات تسجيل الدخول الفاشلة.]]></phrase>
+  <phrase title="your_account_is_currently_awaiting_confirmation_confirmation_sent_to_x" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[حسابك حاليا في انتظار التأكيد. تم إرسال التأكيد إلى {email}.]]></phrase>
   <phrase title="your_changes_have_been_saved" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تم حفظ التغييرات التي أجريتها.]]></phrase>
   <phrase title="your_comment_will_only_be_visible_to_moderators" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[سيكون تعليقك مرئيا فقط للمشرفين.]]></phrase>
   <phrase title="your_comment_will_re_open_this_report" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[سيؤدي تعليقك إلى إعادة فتح هذا التقرير.]]></phrase>
@@ -3715,6 +3844,7 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="your_email_notification_selections_have_been_updated" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تم تحديث اختيارات الإشعار بالبريد الإلكتروني.]]></phrase>
   <phrase title="your_existing_password" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[كلمة مرورك الحالية]]></phrase>
   <phrase title="your_existing_password_is_not_correct" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[كلمة مرورك الحاليه غير صحيحه.]]></phrase>
+  <phrase title="your_full_account_details_not_currently_editable" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تفاصيل حسابك حاليا غير قابلة للتعديل بالكامل.]]></phrase>
   <phrase title="your_name" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[إسمك]]></phrase>
   <phrase title="your_name_or_email_address" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[اسمك أو عنوان بريدك الإلكتروني]]></phrase>
   <phrase title="your_news_feed" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تغذية الأخبار الخاصة بك]]></phrase>
