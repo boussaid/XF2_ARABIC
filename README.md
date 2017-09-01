@@ -12,6 +12,6 @@ The translation is released in *opensource*, so its download is available freely
 # <div dir="rtl">ترجمة الزين فورو الإصدار 2.0</div>
 
 <div dir="rtl">آخر ترجمة على نسخة المطورين رقم 10</div>
-> <div dir="rtl">ترجمة بوسعيد مصطفى</div>
+< <div dir="rtl">ترجمة بوسعيد مصطفى</div>
 
-<div dir="rtl">نسبة التقدم:</div> ![Progress](http://progressed.io/bar/85)
+نسبة التقدم: ![Progress](http://progressed.io/bar/85)
