@@ -6,7 +6,7 @@
 <body>
 مشروع ترجمة xenForo 2.0
 
-==============
+Work progress: ![Progress](http://progressed.io/bar/80)
 
 إدارة مشروع الترجمة
 ==============
