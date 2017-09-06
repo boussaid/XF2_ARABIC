@@ -4,7 +4,7 @@ Based on Xenforo 2.0.0 Developer Preview 10.
 
 **The translation is incomplete, so it is not recommended to use it in production.**
 
-Work progress: ![Progress](http://progressed.io/bar/85)
+Work progress: ![Progress](http://progressed.io/bar/87)
 
 ## Translation Features
 The translation is released in *opensource*, so its download is available freely :blush: .
