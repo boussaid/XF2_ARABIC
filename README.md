@@ -1,10 +1,10 @@
 # Arabic translation Xenforo 2.0
-Based on Xenforo 2.0.0 Developer Preview 10.
+Based on Xenforo 2.0.0 Beta 1.
 >Translated by [BOUSSAID Mustafa](https://github.com/boussaid), for official translations: [xf-ar.com](https://www.xf-ar.com/) and [XenForo community](https://xenforo.com/community/)
 
-**The translation is incomplete, so it is not recommended to use it in production.**
+**This translation is safe to use it in production.**
 
-Work progress: ![Progress](http://progressed.io/bar/87)
+Work progress: ![Progress](http://progressed.io/bar/97)
 
 ## Translation Features
 The translation is released in *opensource*, so its download is available freely :blush: .
