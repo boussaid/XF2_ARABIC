@@ -1,5 +1,5 @@
 # Arabic translation Xenforo 2.0
-Based on Xenforo 2.0.0 Beta 1.
+Based on Xenforo 2.0.0 Beta 2.
 >Translated by [BOUSSAID Mustafa](https://github.com/boussaid), for official translations: [xf-ar.com](https://www.xf-ar.com/) and [XenForo community](https://xenforo.com/community/)
 
 **This translation is safe to use it in production.**
