@@ -64,7 +64,7 @@
   <phrase title="ad_pos_desc.container_breadcrumb_top_below" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[داخل حاوي الصفحة، مباشرة أسفل شريط التفاصيل العلوي في كل صفحة.]]></phrase>
   <phrase title="ad_pos_desc.container_content_above" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الموضع داخل حاوي الصفحة، مباشرة فوق المحتوى في كل صفحة.]]></phrase>
   <phrase title="ad_pos_desc.container_content_below" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الموضع داخل حاوي الصفحة، مباشرة أسفل المحتوى في كل صفحة.]]></phrase>
-  <phrase title="ad_pos_desc.container_header" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الموضع في الهيدر بين كتلة الشعار (اللوجو) و حقل البحث.]]></phrase>
+  <phrase title="ad_pos_desc.container_header" addon_id="XF" version_id="2000070" version_string="2.0.0"><![CDATA[الموضع في الهيدر، مقابل كتلة الشعار (اللوجو).]]></phrase>
   <phrase title="ad_pos_desc.container_sidebar_above" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يظهر أعلى الشريط الجانبي (على اليمين) في كل صفحة، إذا كان يتم تقديم أي محتوى هناك.]]></phrase>
   <phrase title="ad_pos_desc.container_sidebar_below" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يظهر أسفل الشريط الجانبي (على اليمين) في كل صفحة، إذا كان يتم تقديم أي محتوى هناك.]]></phrase>
   <phrase title="ad_pos_desc.container_sidenav_above" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يظهر أعلى التنقل الجانبي السايدناف (الشريط الجانبي الأيمن) في كل صفحة، إذا كان يتم تقديم أي محتوى هناك. علما أن هذا العمود قد يكون مخفيا في النوافذ الصغيرة.]]></phrase>
@@ -431,7 +431,7 @@
   <phrase title="array_sub_options" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الخيارات الفرعية للمصفوفة]]></phrase>
   <phrase title="as_follows" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[على النحو التالي]]></phrase>
   <phrase title="ascending" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تصاعدي]]></phrase>
-  <phrase title="assigned" addon_id="XF" version_id="2000053" version_string="2.0.0 Release Candidate 3"><![CDATA[معين]]></phrase>
+  <phrase title="assigned" addon_id="XF" version_id="2000070" version_string="2.0.0"><![CDATA[معين]]></phrase>
   <phrase title="associate" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[إقتران]]></phrase>
   <phrase title="associate_existing_account" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[ربط الحساب الحالي]]></phrase>
   <phrase title="associate_with" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[إقتران مع]]></phrase>
@@ -596,7 +596,7 @@ code[/CODE]
   <phrase title="birthdays_limit_explain" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[التحكم في عدد الصور الرمزية التي يمكن أن تظهر في هذه القطعة. القيمة 0 لتعطيل هذا الحد.]]></phrase>
   <phrase title="block" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[بلوك]]></phrase>
   <phrase title="block_this_registration" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[حظر هذا التسجيل]]></phrase>
-  <phrase title="bold" addon_id="XF" version_id="2000053" version_string="2.0.0 Release Candidate 3"><![CDATA[غامق]]></phrase>
+  <phrase title="bold" addon_id="XF" version_id="2000070" version_string="2.0.0"><![CDATA[غامق]]></phrase>
   <phrase title="boolean" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[منطقي]]></phrase>
   <phrase title="border" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الحدود]]></phrase>
   <phrase title="border_radius" addon_id="XF" version_id="2000038" version_string="2.0.0 Beta 8"><![CDATA[إنحناء الحدود]]></phrase>
@@ -2280,7 +2280,7 @@ code[/CODE]
   <phrase title="non_language_specific" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[لا توجد لغة محددة]]></phrase>
   <phrase title="none" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[لا شيء]]></phrase>
   <phrase title="noon" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[زوالا]]></phrase>
-  <phrase title="normal" addon_id="XF" version_id="2000053" version_string="2.0.0 Release Candidate 3"><![CDATA[عادي]]></phrase>
+  <phrase title="normal" addon_id="XF" version_id="2000070" version_string="2.0.0"><![CDATA[عادي]]></phrase>
   <phrase title="not_banned" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[غير محظور]]></phrase>
   <phrase title="not_discouraged" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[ليس متجاهلاً]]></phrase>
   <phrase title="not_in_secondary_groups" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[ليس في المجموعات الثانوية]]></phrase>
@@ -2359,7 +2359,6 @@ code[/CODE]
   <phrase title="open" addon_id="XF" version_id="2000051" version_string="2.0.0 Release Candidate 1"><![CDATA[مفتوح]]></phrase>
   <phrase title="open_in_overlay" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[فتح هذا الرابط في نافذة منبثقة]]></phrase>
   <phrase title="open_link" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[فتح الرابط]]></phrase>
-  <phrase title="open_report" addon_id="XF" version_id="2000053" version_string="2.0.0 Release Candidate 3"><![CDATA[مفتوح]]></phrase>
   <phrase title="open_thread" addon_id="XF" version_id="2000038" version_string="2.0.0 Beta 8"><![CDATA[فتح الموضوع]]></phrase>
   <phrase title="optgroup_tags_cannot_be_nested" addon_id="XF" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[لا يمكن تداخل علامات Optgroup.]]></phrase>
   <phrase title="option.addBanUserGroup" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[عند الحظر أضف للمجموعة]]></phrase>
@@ -3462,7 +3461,7 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="resolve_using_both" addon_id="XF" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[حل باستخدام كل من]]></phrase>
   <phrase title="resolve_using_custom_version" addon_id="XF" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[حل باستخدام إصدار مخصص]]></phrase>
   <phrase title="resolve_using_parent_version" addon_id="XF" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[حل باستخدام إصدار رئيسي]]></phrase>
-  <phrase title="resolved" addon_id="XF" version_id="2000053" version_string="2.0.0 Release Candidate 3"><![CDATA[محلول]]></phrase>
+  <phrase title="resolved" addon_id="XF" version_id="2000070" version_string="2.0.0"><![CDATA[محلول]]></phrase>
   <phrase title="restart_import" addon_id="XF" version_id="2000036" version_string="2.0.0 Beta 6"><![CDATA[إعادة تشغيل الاستيراد]]></phrase>
   <phrase title="restore" addon_id="XF" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[استعادة]]></phrase>
   <phrase title="restore_dismissed_notices" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[إستعادة الملاحظات المستبعدة]]></phrase>
@@ -3718,7 +3717,7 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="state" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الحالة]]></phrase>
   <phrase title="statistics" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الإحصائيات]]></phrase>
   <phrase title="status" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الحالة]]></phrase>
-  <phrase title="status_changed" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تغيير الحالة]]></phrase>
+  <phrase title="status_changed" addon_id="XF" version_id="2000070" version_string="2.0.0"><![CDATA[تغييرات الحالة]]></phrase>
   <phrase title="status_update_by_x" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تحديث الحالة بواسطة {username}]]></phrase>
   <phrase title="stay_logged_in" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[البقاء متصلاً]]></phrase>
   <phrase title="step_x_of_y" addon_id="XF" version_id="2000036" version_string="2.0.0 Beta 6"><![CDATA[الخطوة {current} من {total}]]></phrase>
@@ -3787,8 +3786,23 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="style_prop.avatarDefaultType" addon_id="XF" version_id="2000037" version_string="2.0.0 Beta 7"><![CDATA[نوع الصورة الرمزية الافتراضي]]></phrase>
   <phrase title="style_prop.avatarDynamicFont" addon_id="XF" version_id="2000037" version_string="2.0.0 Beta 7"><![CDATA[خط الصورة الرمزية الديناميكية]]></phrase>
   <phrase title="style_prop.avatarDynamicTextPercent" addon_id="XF" version_id="2000037" version_string="2.0.0 Beta 7"><![CDATA[حجم نص الصورة الرمزية الديناميكية (%)]]></phrase>
+  <phrase title="style_prop.borderSize" addon_id="XF" version_id="2000070" version_string="2.0.0"><![CDATA[حجم الحدود]]></phrase>
   <phrase title="style_prop.contentBg" addon_id="XF" version_id="2000037" version_string="2.0.0 Beta 7"><![CDATA[لون خلفية المحتوى]]></phrase>
+  <phrase title="style_prop.fontFamilyBody" addon_id="XF" version_id="2000070" version_string="2.0.0"><![CDATA[خط نص الهيكل]]></phrase>
+  <phrase title="style_prop.fontFamilyCode" addon_id="XF" version_id="2000070" version_string="2.0.0"><![CDATA[خط الكود]]></phrase>
+  <phrase title="style_prop.fontFamilyUi" addon_id="XF" version_id="2000070" version_string="2.0.0"><![CDATA[خط واجهة المستخدم]]></phrase>
+  <phrase title="style_prop.fontSizeLarge" addon_id="XF" version_id="2000070" version_string="2.0.0"><![CDATA[حجم الخط الكبير]]></phrase>
+  <phrase title="style_prop.fontSizeLarger" addon_id="XF" version_id="2000070" version_string="2.0.0"><![CDATA[حجم الخط الأكبر]]></phrase>
+  <phrase title="style_prop.fontSizeLargest" addon_id="XF" version_id="2000070" version_string="2.0.0"><![CDATA[أكبر حجم للخط]]></phrase>
+  <phrase title="style_prop.fontSizeNormal" addon_id="XF" version_id="2000070" version_string="2.0.0"><![CDATA[حجم الخط العادي]]></phrase>
+  <phrase title="style_prop.fontSizeSmall" addon_id="XF" version_id="2000070" version_string="2.0.0"><![CDATA[حجم الغط الصغير]]></phrase>
+  <phrase title="style_prop.fontSizeSmaller" addon_id="XF" version_id="2000070" version_string="2.0.0"><![CDATA[حجم الخط الأصغر]]></phrase>
+  <phrase title="style_prop.fontSizeSmallest" addon_id="XF" version_id="2000070" version_string="2.0.0"><![CDATA[أصغر حجم للخط]]></phrase>
+  <phrase title="style_prop.fontWeightHeavy" addon_id="XF" version_id="2000070" version_string="2.0.0"><![CDATA[وزن الخط الثقيل]]></phrase>
+  <phrase title="style_prop.fontWeightLight" addon_id="XF" version_id="2000070" version_string="2.0.0"><![CDATA[وزن الخط الخفيف]]></phrase>
+  <phrase title="style_prop.fontWeightNormal" addon_id="XF" version_id="2000070" version_string="2.0.0"><![CDATA[وزن الخط العادي]]></phrase>
   <phrase title="style_prop.input" addon_id="XF" version_id="2000038" version_string="2.0.0 Beta 8"><![CDATA[حقل النموذج]]></phrase>
+  <phrase title="style_prop.lineHeightDefault" addon_id="XF" version_id="2000070" version_string="2.0.0"><![CDATA[ارتفاع الخط]]></phrase>
   <phrase title="style_prop.link" addon_id="XF" version_id="2000037" version_string="2.0.0 Beta 7"><![CDATA[الروابط]]></phrase>
   <phrase title="style_prop.linkColor" addon_id="XF" version_id="2000037" version_string="2.0.0 Beta 7"><![CDATA[لون الرابط]]></phrase>
   <phrase title="style_prop.linkHover" addon_id="XF" version_id="2000037" version_string="2.0.0 Beta 7"><![CDATA[الروابط - تمرير الماوس]]></phrase>
@@ -3797,6 +3811,7 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="style_prop.memberTooltipHeader" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[هيدر تلميح الأعضاء]]></phrase>
   <phrase title="style_prop.memberTooltipName" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[هيدر تلميح الأعضاء - الإسم]]></phrase>
   <phrase title="style_prop.menu" addon_id="XF" version_id="2000037" version_string="2.0.0 Beta 7"><![CDATA[القائمة]]></phrase>
+  <phrase title="style_prop.messageSignature" addon_id="XF" version_id="2000070" version_string="2.0.0"><![CDATA[التوقيع]]></phrase>
   <phrase title="style_prop.messageUserElements" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[عناصر معلومات المستخدم بالرسالة]]></phrase>
   <phrase title="style_prop.nodeListDescriptionDisplay" addon_id="XF" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[أسلوب عرض الوصف]]></phrase>
   <phrase title="style_prop.nodeListSubDisplay" addon_id="XF" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[أسلوب عرض المنتديات الفرعية]]></phrase>
@@ -3820,6 +3835,9 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="style_prop.publicHeader" addon_id="XF" version_id="2000038" version_string="2.0.0 Beta 8"><![CDATA[صف الهيدر/الشعار]]></phrase>
   <phrase title="style_prop.scrollJumpButtons" addon_id="XF" version_id="2000033" version_string="2.0.0 Beta 3"><![CDATA[عرض أزرار الإنتقال إلى الصفحة عند التمرير]]></phrase>
   <phrase title="style_prop.styleType" addon_id="XF" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[نوع النمط]]></phrase>
+  <phrase title="style_prop_desc.fontFamilyBody" addon_id="XF" version_id="2000070" version_string="2.0.0"><![CDATA[يستخدم هذا الخط لنص الرسائل إلخ...]]></phrase>
+  <phrase title="style_prop_desc.fontFamilyUi" addon_id="XF" version_id="2000070" version_string="2.0.0"><![CDATA[قائمة الخطوط للنص الرئيسي]]></phrase>
+  <phrase title="style_prop_desc.lineHeightDefault" addon_id="XF" version_id="2000070" version_string="2.0.0"><![CDATA[تتحكم هذه القيمة في مقدار التباعد بين أسطر النص]]></phrase>
   <phrase title="style_prop_desc.memberHeader" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تم تصميم هيدر محتوى صفحة الملف الشخصي للأعضاء بهذه الإعدادات]]></phrase>
   <phrase title="style_prop_desc.memberHeaderName" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يتم التحكم في تصميم اسم العضو الذي يتم عرض صفحته هنا]]></phrase>
   <phrase title="style_prop_desc.memberTooltipHeader" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يتم تنسيق تلميح الأعضاء، الذي يظهر عند المرور فوق أسماء المستخدمين، باستخدام عناصر التحكم هذه]]></phrase>
