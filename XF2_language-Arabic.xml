@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<language title="Arabic" date_format="j F Y" time_format="H:i" currency_format="{value} {symbol}" week_start="0" decimal_point="." thousands_separator="," label_separator=":" comma_separator=", " ellipsis="…" parenthesis_open="(" parenthesis_close=")" language_code="ar-AR" text_direction="RTL" addon_id="XF" base_version_id="2010052" export_version="2">
+<language title="Arabic" date_format="j F Y" time_format="H:i" currency_format="{value} {symbol}" week_start="0" decimal_point="." thousands_separator="," label_separator=":" comma_separator=", " ellipsis="…" parenthesis_open="(" parenthesis_close=")" language_code="ar-AR" text_direction="RTL" addon_id="XF" base_version_id="2010070" export_version="2">
   <phrase title="1_day_ago" addon_id="XF" version_id="2000052" version_string="2.0.0 Release Candidate 2"><![CDATA[منذ يوم]]></phrase>
   <phrase title="1_month_ago" addon_id="XF" version_id="2000052" version_string="2.0.0 Release Candidate 2"><![CDATA[منذ شهر]]></phrase>
   <phrase title="1_time" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[مرة واحدة]]></phrase>
@@ -452,6 +452,7 @@
 
 <p>تم إشعار كافة المدراء المميزين تلقائياً بهذا التغيير.</p>]]></phrase>
   <phrase title="api_key_change_subject" addon_id="XF" version_id="2010032" version_string="2.1.0 Beta 2"><![CDATA[{board} - تم تغيير مفتاح API]]></phrase>
+  <phrase title="api_key_copied_to_clipboard" addon_id="XF" version_id="2010070" version_string="2.1.0"><![CDATA[تم نسخ مفتاح API إلى الحافظة.]]></phrase>
   <phrase title="api_key_details" addon_id="XF" version_id="2010032" version_string="2.1.0 Beta 2"><![CDATA[تفاصيل مفتاح API]]></phrase>
   <phrase title="api_key_is_active" addon_id="XF" version_id="2010032" version_string="2.1.0 Beta 2"><![CDATA[مفتاح API مفعل]]></phrase>
   <phrase title="api_key_x_created_or_updated_key_use_follows" addon_id="XF" version_id="2010032" version_string="2.1.0 Beta 2"><![CDATA[تم إنشاء مفتاح API أو تحديثه "{title}" . المفتاح للاستخدام مع API كمايلي:]]></phrase>
@@ -710,6 +711,7 @@ code[/CODE]
   <phrase title="block_this_registration" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[حظر هذا التسجيل]]></phrase>
   <phrase title="board_url_option_not_match_license_url" addon_id="XF" version_id="2010032" version_string="2.1.0 Beta 2"><![CDATA[لا يتطابق <a href="{link}">خيار عنوان URL</a> الخاص بموقعك مع عنوان URL الخاص بالموقع الذي تم تكوينه لترخيصك.]]></phrase>
   <phrase title="bookmark_deleted_successfully" addon_id="XF" version_id="2010032" version_string="2.1.0 Beta 2"><![CDATA[تم حذف الإشارة المرجعية بنجاح.]]></phrase>
+  <phrase title="bookmark_labels" addon_id="XF" version_id="2010070" version_string="2.1.0"><![CDATA[علامات الإشارة المرجعية]]></phrase>
   <phrase title="bookmark_saved_successfully" addon_id="XF" version_id="2010032" version_string="2.1.0 Beta 2"><![CDATA[تم حفظ الإشارة المرجعية بنجاح.]]></phrase>
   <phrase title="bookmark_tools" addon_id="XF" version_id="2010032" version_string="2.1.0 Beta 2"><![CDATA[أدوات الإشارة]]></phrase>
   <phrase title="bookmarked" addon_id="XF" version_id="2010032" version_string="2.1.0 Beta 2"><![CDATA[إشارة مرجعية]]></phrase>
@@ -834,6 +836,7 @@ code[/CODE]
   <phrase title="code" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[كود]]></phrase>
   <phrase title="code_language.general" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[كود عام]]></phrase>
   <phrase title="code_language.markdown" addon_id="XF" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[Markdown (بنكهة GitHub)]]></phrase>
+  <phrase title="code_listeners_extensions_disabled_warning" addon_id="XF" version_id="2010070" version_string="2.1.0"><![CDATA[تم تعطيل Code event listeners و الملحقات extensions عبر config.php. تم تصميم هذا كإجراء طارئ للسماح لك باستعادة الوصول إلى لوحة التحكم في حالة تعطيل وصولك لها من قبل إضافة ما و بالتالي تعطيلها. لا ينبغي استخدام هذا كأداة لتصحيح الأخطاء.]]></phrase>
   <phrase title="color" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[اللون]]></phrase>
   <phrase title="column" addon_id="XF" version_id="2010032" version_string="2.1.0 Beta 2"><![CDATA[عمود]]></phrase>
   <phrase title="comma_separator" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[فاصلة الفاصل]]></phrase>
@@ -1955,7 +1958,7 @@ code[/CODE]
   <phrase title="label" addon_id="XF" version_id="2010032" version_string="2.1.0 Beta 2"><![CDATA[تسمية]]></phrase>
   <phrase title="label_separator" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[فاصل التسمية]]></phrase>
   <phrase title="labels" addon_id="XF" version_id="2010034" version_string="2.1.0 Beta 4"><![CDATA[علامات]]></phrase>
-  <phrase title="labels_must_be_unique" addon_id="XF" version_id="2010036" version_string="2.1.0 Beta 6"><![CDATA[يجب أن تكون العلامات فريدة. العلامة المحددة موجودة بالفعل.]]></phrase>
+  <phrase title="labels_must_be_unique" addon_id="XF" version_id="2010070" version_string="2.1.0"><![CDATA[يجب أن تكون العلامات فريدة. العلامة المحددة موجودة بالفعل.]]></phrase>
   <phrase title="language" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[اللغة]]></phrase>
   <phrase title="language_chooser" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[منتقي اللغة]]></phrase>
   <phrase title="language_code" addon_id="XF" version_id="2000036" version_string="2.0.0 Beta 6"><![CDATA[اللغة]]></phrase>
@@ -2895,11 +2898,11 @@ code[/CODE]
   <phrase title="option_explain.alertExpiryDays" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تنبيهات المستخدم سوف تختفي من صفحة قائمة التنبيهات بعد عدد هذه الأيام من رؤيتها. التنبيهات التي لم تتم مراجعتها تنتهي تلقائيا بعد 30 يوما.]]></phrase>
   <phrase title="option_explain.alertsPerPage" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[للتحكم بعدد التنبيهات التي ستعرض بكل صفحة في صفحة المستخدم الخاصة بعرض القائمة الكاملة للتبيهات.]]></phrase>
   <phrase title="option_explain.alertsPopupExpiryHours" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[ستظهر نافذة التنبيه المنبثقة جميع التنبيهات التي لم تتم مشاهدتها، بالإضافة إلى أي تنبيهات تمت مشاهدتها خلال الإطار الزمني (بالساعات) قبل الآن. لاحظ أن إجمالي التنبيهات المعروضة في هذه النافذة المنبثقة محدود بما لا يزيد عن 25.]]></phrase>
-  <phrase title="option_explain.allowVideoUploads" addon_id="XF" version_id="2010032" version_string="2.1.0 Beta 2"><![CDATA[استخدم هذا الخيار لتعطيل عمليات تحميل الفيديو بشكل عام. بمجرد التمكين، يجب أن تمنح مستخدمين / مجموعات محددة التصاريح اللازمة لتحميل مقاطع الفيديو.<br />
+  <phrase title="option_explain.allowVideoUploads" addon_id="XF" version_id="2010070" version_string="2.1.0"><![CDATA[استخدم هذا الخيار لتمكين أو تعطيل عمليات تحميل الفيديو بشكل عام. في حالة التمكين، يجب أن تمنح مستخدمين / مجموعات محددة التصاريح اللازمة لتحميل مقاطع الفيديو.<br />
 <br />
 ستتوفر الملحقات الإضافيه التالية للتحميل: {allowedVideoExtensions}.<br />
 <br />
-أيضاً يجب توفير الحد الأقصى لحجم ملف الفيديو بالكيلوبايت (KB). سيتم رفض مقاطع الفيديو التي تزيد عن هذا الحجم. يحدد تكوين هذا الخادم هذه القيمة إلى <b>{serverMaxFileSize}</b> KB.]]></phrase>
+أيضاً يجب توفير الحد الأقصى لحجم ملف الفيديو بالكيلوبايت (KB). سيتم رفض مقاطع الفيديو التي تزيد عن هذا الحجم. تكوين هذا الخادم يحدد هذه القيمة إلى <b>{serverMaxFileSize}</b> KB.]]></phrase>
   <phrase title="option_explain.allowedCodeLanguages" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[اللغات المُعرفة هنا ستكون متاحه للاستخدام داخل BB code الكود مع الصيغة [CODE=xxxx].]]></phrase>
   <phrase title="option_explain.approveSharedBannedRejectedIp" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يسمح هذا الخيار بفحص عنوان IP للمسجل الجديد مع عناوين IP التي استخدمها المستخدمون المحظورون أو المرفوضون مؤخرا. إذا تم العثور على واحد أو أكثر من التطابقات، يجب أن تتم الموافقة التسجيل يدويا من قبل مسؤول.]]></phrase>
   <phrase title="option_explain.attachmentExtensions" addon_id="XF" version_id="2010032" version_string="2.1.0 Beta 2"><![CDATA[ضع قائمة بامتدادات الملفات التي يسمح بتحميلها. استخدم المسافات أو فاصل الأسطر بين الإمتدادات. إذا تم تمكين تحميلات الفيديو، سيتم دعم ملحقات الفيديو المسموح بها تلقائياً.]]></phrase>
@@ -3807,6 +3810,8 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="re_run_check" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[إعادة تشغيل الاختبار]]></phrase>
   <phrase title="reacting_to_your_own_content_is_considered_cheating" addon_id="XF" version_id="2010032" version_string="2.1.0 Beta 2"><![CDATA[يعتبر التفاعل مع المحتوى الخاص بك غش.]]></phrase>
   <phrase title="reaction_active_hint" addon_id="XF" version_id="2010032" version_string="2.1.0 Beta 2"><![CDATA[التفاعلات المعطلة لم تعدمتاحة للإستخدام، ولن تظهر مرة أخرى في ملخصات المحتوى.]]></phrase>
+  <phrase title="reaction_content" addon_id="XF" version_id="2010070" version_string="2.1.0"><![CDATA[محتوى التفاعل]]></phrase>
+  <phrase title="reaction_definitions" addon_id="XF" version_id="2010070" version_string="2.1.0"><![CDATA[تعريفات التفاعل]]></phrase>
   <phrase title="reaction_is_active" addon_id="XF" version_id="2010032" version_string="2.1.0 Beta 2"><![CDATA[التفاعل مفعل]]></phrase>
   <phrase title="reaction_message_ratio_explanation" addon_id="XF" version_id="2010032" version_string="2.1.0 Beta 2"><![CDATA[سيحصل المستخدم الذي لديه 10 رسائل ومعدل التفاعل 5 على 0.5.]]></phrase>
   <phrase title="reaction_score" addon_id="XF" version_id="2010032" version_string="2.1.0 Beta 2"><![CDATA[مستوى التفاعل]]></phrase>
@@ -3946,6 +3951,7 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="reply_placeholder" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[أكتب ردك...]]></phrase>
   <phrase title="reply_quoting_this_message" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الرد، اقتباس هذه الرسالة]]></phrase>
   <phrase title="reply_to_conversation" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الرد على المحادثة]]></phrase>
+  <phrase title="reply_to_conversation_at_x" addon_id="XF" version_id="2010070" version_string="2.1.0"><![CDATA[الرد على المحادثة في {boardTitle}]]></phrase>
   <phrase title="reply_to_thread" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الرد على الموضوع]]></phrase>
   <phrase title="reply_to_watched_thread_x" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[{title} - رد جديد بموضوع تتابعه]]></phrase>
   <phrase title="report" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[إبلاغ]]></phrase>
@@ -4926,7 +4932,7 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="unban_users" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[إلغاء حظر المستخدمين]]></phrase>
   <phrase title="undelete" addon_id="XF" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[إلغاء الحذف]]></phrase>
   <phrase title="undelete_posts" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[إلغاء حذف المشاركات]]></phrase>
-  <phrase title="undelete_thread" addon_id="XF" version_id="2010052" version_string="2.1.0 Release Candidate 2"><![CDATA[استعادة الموضوع]]></phrase>
+  <phrase title="undelete_thread" addon_id="XF" version_id="2010070" version_string="2.1.0"><![CDATA[استرجاع الموضوع]]></phrase>
   <phrase title="undelete_threads" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[إلغاء حذف المواضيع]]></phrase>
   <phrase title="underline" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[مسطر]]></phrase>
   <phrase title="undiscourage_users" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[إلغاء تجاهل المستخدمين]]></phrase>
@@ -5605,7 +5611,7 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="you_may_only_attach_x_files" addon_id="XF" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[يمكنك إرفاق {count} ملفات فقط.]]></phrase>
   <phrase title="you_may_only_follow_x_people" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يمكنك متابعة ما مجموعه {count} من الأشخاص فقط.]]></phrase>
   <phrase title="you_may_only_ignore_x_people" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يمكنك تجاهل {count} من الأشخاص فقط.]]></phrase>
-  <phrase title="you_may_only_import_from_xenforo_20" addon_id="XF" version_id="2010052" version_string="2.1.0 Release Candidate 2"><![CDATA[يمكنك الاستيراد فقط من XenForo 2.0.]]></phrase>
+  <phrase title="you_may_only_import_from_xenforo_20" addon_id="XF" version_id="2010070" version_string="2.1.0"><![CDATA[يمكنك الاستيراد فقط من XenForo 2.0.]]></phrase>
   <phrase title="you_may_only_invite_x_members_to_join_this_conversation" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يمكنك دعوه {count} أعضاء فقط للانضمام إلى هذه المحادثة.]]></phrase>
   <phrase title="you_may_select_up_to_x_choices" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يمكنك تحديد ما يصل إلى {max} من الخيارات.]]></phrase>
   <phrase title="you_may_use_bb_code" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يمكنك استخدام BB code]]></phrase>
