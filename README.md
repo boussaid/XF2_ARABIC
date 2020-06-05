@@ -1,7 +1,7 @@
 # Arabic translation Xenforo 2.1
 
-Based on Xenforo 2.1.8 Patch 2<br />
-Relased: 06/04/2020.
+Based on Xenforo 2.1.10 Patch 2<br />
+Relased: 05/06/2020.
 
 >Translated by [BOUSSAID Mustafa](https://github.com/boussaid), for official translations: [XenForo community](https://xenforo.com/community/resources/xenforo-2-x-arabic-translation.5630/)
 
