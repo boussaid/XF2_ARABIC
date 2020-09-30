@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<language title="Arabic" date_format="j F Y" time_format="H:i" currency_format="{value} {symbol}" week_start="0" decimal_point="." thousands_separator="," label_separator=":" comma_separator=", " ellipsis="…" parenthesis_open="(" parenthesis_close=")" language_code="ar-AR" text_direction="RTL" user_selectable="1" addon_id="XF" base_version_id="2020051" export_version="2">
+<language title="Arabic" date_format="j F Y" time_format="H:i" currency_format="{value} {symbol}" week_start="0" decimal_point="." thousands_separator="," label_separator=":" comma_separator=", " ellipsis="…" parenthesis_open="(" parenthesis_close=")" language_code="ar-AR" text_direction="RTL" user_selectable="1" addon_id="XF" base_version_id="2020070" export_version="2">
   <phrase title="1_day_ago" addon_id="XF" version_id="2000052" version_string="2.0.0 Release Candidate 2"><![CDATA[منذ يوم]]></phrase>
   <phrase title="1_month_ago" addon_id="XF" version_id="2000052" version_string="2.0.0 Release Candidate 2"><![CDATA[منذ شهر]]></phrase>
   <phrase title="1_time" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[مرة واحدة]]></phrase>
@@ -1097,6 +1097,7 @@ code[/CODE]
   <phrase title="css_components" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[عناصر CSS]]></phrase>
   <phrase title="css_components_explain" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يتم تطبيق خيارات الحدود البسيطة فقط إذا لم يتم تحديد الحدود وانحناء الحدود.]]></phrase>
   <phrase title="css_style_property_must_have_at_least_one_css_component" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يجب ان يكون لخاصيه الستايل مكون CSS واحد على الأقل.]]></phrase>
+  <phrase title="curl_ssl_version" addon_id="XF" version_id="2020070" version_string="2.2.0"><![CDATA[إصدار cURL SSL]]></phrase>
   <phrase title="curl_version" addon_id="XF" version_id="2010032" version_string="2.1.0 Beta 2"><![CDATA[إصدار cURL]]></phrase>
   <phrase title="currency.aed" addon_id="XF" version_id="2000035" version_string="2.0.0 Beta 5"><![CDATA[UAE الدرهم الإماراتي]]></phrase>
   <phrase title="currency.afn" addon_id="XF" version_id="2000038" version_string="2.0.0 Beta 8"><![CDATA[الأفغاني الأفغانستاني]]></phrase>
@@ -3076,6 +3077,8 @@ code[/CODE]
   <phrase title="open_in_overlay" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[فتح هذا الرابط في نافذة منبثقة]]></phrase>
   <phrase title="open_link" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[فتح الرابط]]></phrase>
   <phrase title="open_thread" addon_id="XF" version_id="2000038" version_string="2.0.0 Beta 8"><![CDATA[فتح الموضوع]]></phrase>
+  <phrase title="openssl_php_extension_required_tls_or_ssl_encryption" addon_id="XF" version_id="2020070" version_string="2.2.0"><![CDATA[مطلوب ملحق PHP <a href="https://secure.php.net/manual/en/book.openssl.php" target="_blank"><code>openssl</code></a> لاستخدام تشفير TLS أو SSL.]]></phrase>
+  <phrase title="openssl_version" addon_id="XF" version_id="2020070" version_string="2.2.0"><![CDATA[إصدار OpenSSL]]></phrase>
   <phrase title="optgroup_tags_cannot_be_nested" addon_id="XF" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[لا يمكن تداخل علامات Optgroup.]]></phrase>
   <phrase title="option.acpSearchExclude" addon_id="XF" version_id="2000270" version_string="2.0.2"><![CDATA[أنواع محتوى البحث السريع]]></phrase>
   <phrase title="option.activitySummaryEmail" addon_id="XF" version_id="2020034" version_string="2.2.0 Beta 4"><![CDATA[تفعيل البريد الإلكتروني لملخص النشاط]]></phrase>
@@ -3900,7 +3903,6 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="please_enter_embed_html" addon_id="XF" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[الرجاء إدخال بعض تضمين HTML.]]></phrase>
   <phrase title="please_enter_key_using_only_alphanumeric_underscore" addon_id="XF" version_id="2020034" version_string="2.2.0 Beta 4"><![CDATA[الرجاء إدخال مفتاح باستخدام a-z, A-Z, 0-9, و _ فقط.]]></phrase>
   <phrase title="please_enter_list_of_sub_options_for_this_array" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الرجاء إدخال قائمة بالخيارات الفرعية لهذه المصفوفة.]]></phrase>
-  <phrase title="please_enter_message_template" addon_id="XF" version_id="2020051" version_string="2.2.0 Release Candidate 1"><![CDATA[الرجاء إدخال قالب الرسالة.]]></phrase>
   <phrase title="please_enter_message_with_no_more_than_x_characters" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الرجاء إدخال رسالة لا تزيد عن {count} حرفا.]]></phrase>
   <phrase title="please_enter_message_with_no_more_than_x_images" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الرجاء إدخال رسالة لا تزيد عن {count} من الصور.]]></phrase>
   <phrase title="please_enter_message_with_no_more_than_x_media" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الرجاء إدخال رسالة لا تحتوي على أكثر من {count} عناصر من وسائط الميديا.]]></phrase>
@@ -4088,7 +4090,8 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="posts" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[المشاركات]]></phrase>
   <phrase title="powered_by_giphy" addon_id="XF" version_id="2020034" version_string="2.2.0 Beta 4"><![CDATA[مدعوم من GIPHY]]></phrase>
   <phrase title="pre_reg_action_content_matched_x" addon_id="XF" version_id="2020034" version_string="2.2.0 Beta 4"><![CDATA[تطابق محتوى إجراء ما قبل التسجيل ({details})]]></phrase>
-  <phrase title="pre_reg_action_notice" addon_id="XF" version_id="2020034" version_string="2.2.0 Beta 4"><![CDATA[شكرا لمساهمتك. لنشر المحتوى الخاص بك، يرجى تسجيل حساب أولا.]]></phrase>
+  <phrase title="pre_reg_action_notice" addon_id="XF" version_id="2020070" version_string="2.2.0"><![CDATA[شكرا لمساهمتك.
+قبل أن يتم نشر المحتوى الخاص بك، يرجى قضاء بضع دقائق معنا لتسجيل حساب مجاني.]]></phrase>
   <phrase title="pre_reg_content_could_not_be_automatically_submitted" addon_id="XF" version_id="2020034" version_string="2.2.0 Beta 4"><![CDATA[للأسف، المحتوى الذي أنشأته قبل التسجيل لا يمكن نشره تلقائياً.]]></phrase>
   <phrase title="pre_registration_action" addon_id="XF" version_id="2020034" version_string="2.2.0 Beta 4"><![CDATA[إجراء قبل التسجيل]]></phrase>
   <phrase title="preferences" addon_id="XF" version_id="2001070" version_string="2.0.10"><![CDATA[خيارات]]></phrase>
@@ -4781,7 +4784,7 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="sprite_dimensions" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الأبعاد]]></phrase>
   <phrase title="sprite_mode" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[وضع Sprite]]></phrase>
   <phrase title="sprite_position" addon_id="XF" version_id="2010270" version_string="2.1.2"><![CDATA[إحداثيات الموقع]]></phrase>
-  <phrase title="ssl_version" addon_id="XF" version_id="2001070" version_string="2.0.10"><![CDATA[إصدار SSL]]></phrase>
+  <phrase title="ssl_version" addon_id="XF" version_id="2020070" version_string="2.2.0"><![CDATA[إصدار SSL]]></phrase>
   <phrase title="staff_member" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[طاقم الإدارة]]></phrase>
   <phrase title="staff_members_cannot_be_reply_banned" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[لا يمكن منع أعضاء طاقم الإدارة من الرد.]]></phrase>
   <phrase title="staff_members_may_not_be_ignored" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[لا يمكن تجاهل أعضاء طاقم الإدارة.]]></phrase>
@@ -4947,7 +4950,7 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="style_prop_desc.lineHeightDefault" addon_id="XF" version_id="2000070" version_string="2.0.0"><![CDATA[تتحكم هذه القيمة في مقدار التباعد بين أسطر النص]]></phrase>
   <phrase title="style_prop_desc.memberHeader" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تم تصميم هيدر محتوى صفحة الملف الشخصي للأعضاء بهذه الإعدادات]]></phrase>
   <phrase title="style_prop_desc.memberHeaderName" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يتم التحكم في تصميم اسم العضو الذي يتم عرض صفحته هنا]]></phrase>
-  <phrase title="style_prop_desc.memberTooltipHeader" addon_id="XF" version_id="2020036" version_string="2.2.0 Beta 6"><![CDATA[باستخدام عناصر التحكم هذه، يتم تنسيق التلميح المنبثق للأعضاء، الذي يظهر عند مرور الماوس فوق أسماء المستخدمين]]></phrase>
+  <phrase title="style_prop_desc.memberTooltipHeader" addon_id="XF" version_id="2020052" version_string="2.2.0 Release Candidate 2"><![CDATA[باستخدام عناصر التحكم هذه، يتم تنسيق التلميح المنبثق للأعضاء، الذي يظهر عند مرور الماوس فوق أسماء المستخدمين]]></phrase>
   <phrase title="style_prop_desc.memberTooltipName" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تنسيق إسم المستخدم في التلميح الذي يتم عرضه]]></phrase>
   <phrase title="style_prop_desc.metaThemeColor" addon_id="XF" version_id="2020034" version_string="2.2.0 Beta 4"><![CDATA[يؤدي هذا إلى تعيين لون النمط المستخدم في تثبيت PWA، بالإضافة إلى لون شريط العنوان في Chrome لنظام Android.]]></phrase>
   <phrase title="style_prop_desc.nodeListDescriptionDisplay" addon_id="XF" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[لتوفير المساحة عمودياً، يمكن إخفاء أوصاف المنتدى حتى يتم تمرير الفأرة فوق عنوان المنتدى، عندها يتم عرضها في شكل تلميح منبثق]]></phrase>
@@ -5197,7 +5200,7 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="there_no_threads_matching_this_search_forum" addon_id="XF" version_id="2020034" version_string="2.2.0 Beta 4"><![CDATA[لا توجد مواضيع مطابقة لمنتدى البحث هذا.]]></phrase>
   <phrase title="there_no_threads_matching_your_filters" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[لا توجد مواضيع تتطابق مع عوامل التصفية الخاصة بك.]]></phrase>
   <phrase title="there_no_threads_to_display" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[لا توجد مواضيع لعرضها.]]></phrase>
-  <phrase title="there_scheduled_jobs_outstanding_which_have_not_run" addon_id="XF" version_id="2020032" version_string="2.2.0 Beta 2"><![CDATA[هناك مهام مجدولة معلقة لم يتم تشغيلها. قد لا يتم تشغيل المهام كما هو متوقع.]]></phrase>
+  <phrase title="there_scheduled_jobs_outstanding_which_have_not_run" addon_id="XF" version_id="2020052" version_string="2.2.0 Release Candidate 2"><![CDATA[هناك مهام مجدولة معلقة لم يتم تشغيلها. قد لا يتم تنفيذ المهام كما هو متوقع.]]></phrase>
   <phrase title="there_templates_that_may_be_outdated_click_to_review" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[هناك قوالب قد تكون قديمة. انقر هنا لمراجعتها.]]></phrase>
   <phrase title="there_was_error_processing_your_card" addon_id="XF" version_id="2000570" version_string="2.0.5"><![CDATA[حدث خطأ في معالجة بطاقتك. يرجى المحاولة مرة أخرى أو استخدام طريقة دفع مختلفة.]]></phrase>
   <phrase title="there_was_problem_communicating_with_gravatar" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[كانت هناك مشكلة في التواصل مع Gravatar. الرجاء معاودة المحاولة في وقت لاحق.]]></phrase>
@@ -5998,6 +6001,7 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="weight_normal" addon_id="XF" version_id="2000051" version_string="2.0.0 Release Candidate 1"><![CDATA[عادي]]></phrase>
   <phrase title="weight_regular" addon_id="XF" version_id="2010032" version_string="2.1.0 Beta 2"><![CDATA[عادي]]></phrase>
   <phrase title="weight_solid" addon_id="XF" version_id="2010034" version_string="2.1.0 Beta 4"><![CDATA[غامق]]></phrase>
+  <phrase title="welcome_to_boardtitle" addon_id="XF" version_id="2020070" version_string="2.2.0"><![CDATA[مرحباً بك في {boardTitle}!]]></phrase>
   <phrase title="whats_gravatar" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[ما هو Gravatar ؟]]></phrase>
   <phrase title="whats_new" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[ما الجديد]]></phrase>
   <phrase title="when_user_state_non_x_users_receive_permissions_guest_group" addon_id="XF" version_id="2010032" version_string="2.1.0 Beta 2"><![CDATA[عندما تكون حالة المستخدمون في غير الحالة '{valid_state}', سيحصل المستخدمون على التصاريح من مجموعة  {guest}.]]></phrase>
