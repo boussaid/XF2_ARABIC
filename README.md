@@ -7,7 +7,7 @@ Relased: 30/09/2020.
 
 **This translation is safe to use it in production.**
 
-Work progress: ![Progress](http://progressed.io/bar/98)
+Work progress: ![Progress](https://progress-bar.dev/96/?title=Done)
 
 ## Translation Features
 The translation is released in *opensource*, so its download is available freely :blush: .
