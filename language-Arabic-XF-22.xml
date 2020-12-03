@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<language title="Arabic" date_format="j F Y" time_format="H:i" currency_format="{value} {symbol}" week_start="0" decimal_point="." thousands_separator="," label_separator=":" comma_separator=", " ellipsis="…" parenthesis_open="(" parenthesis_close=")" language_code="ar-AR" text_direction="RTL" user_selectable="1" addon_id="XF" base_version_id="2020070" export_version="2">
+<language title="Arabic" date_format="j F Y" time_format="H:i" currency_format="{value} {symbol}" week_start="0" decimal_point="." thousands_separator="," label_separator=":" comma_separator=", " ellipsis="…" parenthesis_open="(" parenthesis_close=")" language_code="ar-AR" text_direction="RTL" user_selectable="1" addon_id="XF" base_version_id="2020270" export_version="2">
   <phrase title="1_day_ago" addon_id="XF" version_id="2000052" version_string="2.0.0 Release Candidate 2"><![CDATA[منذ يوم]]></phrase>
   <phrase title="1_month_ago" addon_id="XF" version_id="2000052" version_string="2.0.0 Release Candidate 2"><![CDATA[منذ شهر]]></phrase>
   <phrase title="1_time" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[مرة واحدة]]></phrase>
@@ -1260,6 +1260,7 @@ code[/CODE]
   <phrase title="data_portability_import_explain" addon_id="XF" version_id="2000670" version_string="2.0.6"><![CDATA[سيتم إرسال طلب إعادة تعيين كلمة المرور للمستخدم الجديد  إلى عنوان بريده الإلكتروني قبل أن يتمكن من استخدام حسابه.]]></phrase>
   <phrase title="data_to_import" addon_id="XF" version_id="2000036" version_string="2.0.0 Beta 6"><![CDATA[البيانات للإستيراد]]></phrase>
   <phrase title="data_type" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[نوع البيانات]]></phrase>
+  <phrase title="database_does_not_contain_table_called_x" addon_id="XF" version_id="2020170" version_string="2.2.1"><![CDATA[قاعدة البيانات لا تحتوي على جدول يسمى '{name}'.]]></phrase>
   <phrase title="date" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[التاريخ]]></phrase>
   <phrase title="date_format" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تنسيق التاريخ]]></phrase>
   <phrase title="date_limit" addon_id="XF" version_id="2010470" version_string="2.1.4"><![CDATA[حدود التاريخ]]></phrase>
@@ -1897,6 +1898,7 @@ code[/CODE]
   <phrase title="google_client_id_explain" addon_id="XF" version_id="2020034" version_string="2.2.0 Beta 4"><![CDATA[يمكنك الحصول على معرّف العميل من جوجل عبر <a href="https://developers.google.com/console" target="_blank">Developer Console</a>]]></phrase>
   <phrase title="google_plus" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Google+]]></phrase>
   <phrase title="gravatar" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[Gravatar]]></phrase>
+  <phrase title="gravatar_support_is_disabled" addon_id="XF" version_id="2020270" version_string="2.2.2"><![CDATA[تم تعطيل دعم Gravatar. للمتابعة، قم بتشغيله في 'إعداد> الخيارات> خيارات المستخدم']]></phrase>
   <phrase title="gravatars_require_valid_email_addresses" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[خدمة Gravatars تتطلب عناوين بريد إلكتروني صالحة.]]></phrase>
   <phrase title="group" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[المجموعة]]></phrase>
   <phrase title="group_alignment" addon_id="XF" version_id="2020034" version_string="2.2.0 Beta 4"><![CDATA[محاذاة المجموعة]]></phrase>
@@ -3888,6 +3890,7 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="please_enter_a_date_in_the_future" addon_id="XF" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[يرجى إدخال تاريخ في المستقبل.]]></phrase>
   <phrase title="please_enter_a_date_in_the_past" addon_id="XF" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[الرجاء إدخال تاريخ في الماضي.]]></phrase>
   <phrase title="please_enter_a_replacement_value" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الرجاء إدخال قيمة استبدال.]]></phrase>
+  <phrase title="please_enter_a_valid_api_key" addon_id="XF" version_id="2020270" version_string="2.2.2"><![CDATA[الرجاء إدخال مفتاح API صالح]]></phrase>
   <phrase title="please_enter_advertising_position_key" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الرجاء إدخال مفتاح صالح لموضع الإعلان.]]></phrase>
   <phrase title="please_enter_an_id_using_only_alphanumeric" addon_id="XF" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[الرجاء إدخال معرف باستخدام الحروف a-z, A-Z, 0-9, و _ فقط.]]></phrase>
   <phrase title="please_enter_another_custom_title_disallowed_words" addon_id="XF" version_id="2010070" version_string="2.1.0"><![CDATA[الرجاء إدخال لقب مخصص آخر. تحتوي القيمة المدخلة على كلمات غير مسموح بها.]]></phrase>
@@ -3988,7 +3991,7 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="please_enter_value_using_x_characters_or_fewer" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يرجى إدخال قيمة باستخدام {count} حرفا أو أقل.]]></phrase>
   <phrase title="please_enter_widget_key" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الرجاء إدخال مفتاح القطعة.]]></phrase>
   <phrase title="please_enter_widget_position_key" addon_id="XF" version_id="2010270" version_string="2.1.2"><![CDATA[الرجاء إدخال مفتاح موقع القطعة.]]></phrase>
-  <phrase title="please_enter_your_google_analytics_web_property_id_in_format" addon_id="XF" version_id="2010170" version_string="2.1.1"><![CDATA[الرجاء إدخال معرف Google Analytics web property أو رقم  UA الخاص بك على شكل UA-XXXXXX-Y. أنظر <a href="https://support.google.com/analytics/answer/1008080" target="_blank">https://support.google.com/analytics/answer/1008080</a>.]]></phrase>
+  <phrase title="please_enter_your_google_analytics_web_property_id_in_format" addon_id="XF" version_id="2020270" version_string="2.2.2"><![CDATA[الرجاء إدخال معرف Google Analytics web property أو رقم  UA الخاص بك على شكل UA-XXXXXX-Y أو or your Google Analytics 4 Measurement ID على شكل G-XXXXXX. أنظر <a href="https://support.google.com/analytics/answer/1008080" target="_blank">https://support.google.com/analytics/answer/1008080</a>.]]></phrase>
   <phrase title="please_leave_this_field_blank" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الرجاء ترك هذا الحقل فارغا.]]></phrase>
   <phrase title="please_provide_at_least_one_answer" addon_id="XF" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[يرجى تقديم إجابة واحدة على الأقل.]]></phrase>
   <phrase title="please_provide_reason_for_this_username_change" addon_id="XF" version_id="2020034" version_string="2.2.0 Beta 4"><![CDATA[يرجى تقديم سبب لهذا التغيير.]]></phrase>
@@ -4487,6 +4490,7 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="required_php_xml_extensions_not_found" addon_id="XF" version_id="2001070" version_string="2.0.10"><![CDATA[لا يمكن العثور على امتدادات PHP المطلوبة (DOM و SimpleXML) لمعالجة XML. الرجاء مطالبة المضيف بتثبيت هذه الإضافات.]]></phrase>
   <phrase title="requirements" addon_id="XF" version_id="2020034" version_string="2.2.0 Beta 4"><![CDATA[المتطلبات]]></phrase>
   <phrase title="requires_user_names_new_registrations_match_regex" addon_id="XF" version_id="2020031" version_string="2.2.0 Beta 1"><![CDATA[هذا يتطلب من أسماء المستخدمين في التسجيلات الجديدة مطابقة التعبير القياسي المعين هنا. <b>ملاحظة</b>: استخدم تعبيرا كاملا، بما في ذلك المحددات ورموز التبديل.]]></phrase>
+  <phrase title="requires_x_permission" addon_id="XF" version_id="2020270" version_string="2.2.2"><![CDATA[يتطلب الترخيص '{title}']]></phrase>
   <phrase title="resend_account_confirmation" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[إعادة إرسال تأكيد الحساب]]></phrase>
   <phrase title="resend_confirmation_email" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[إعادة إرسال رسالة التأكيد إلى البريد الإلكتروني]]></phrase>
   <phrase title="resend_email" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[إعادة إرسال البريد الإلكتروني]]></phrase>
@@ -4784,7 +4788,6 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="sprite_dimensions" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الأبعاد]]></phrase>
   <phrase title="sprite_mode" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[وضع Sprite]]></phrase>
   <phrase title="sprite_position" addon_id="XF" version_id="2010270" version_string="2.1.2"><![CDATA[إحداثيات الموقع]]></phrase>
-  <phrase title="ssl_version" addon_id="XF" version_id="2020070" version_string="2.2.0"><![CDATA[إصدار SSL]]></phrase>
   <phrase title="staff_member" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[طاقم الإدارة]]></phrase>
   <phrase title="staff_members_cannot_be_reply_banned" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[لا يمكن منع أعضاء طاقم الإدارة من الرد.]]></phrase>
   <phrase title="staff_members_may_not_be_ignored" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[لا يمكن تجاهل أعضاء طاقم الإدارة.]]></phrase>
@@ -4950,7 +4953,7 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="style_prop_desc.lineHeightDefault" addon_id="XF" version_id="2000070" version_string="2.0.0"><![CDATA[تتحكم هذه القيمة في مقدار التباعد بين أسطر النص]]></phrase>
   <phrase title="style_prop_desc.memberHeader" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تم تصميم هيدر محتوى صفحة الملف الشخصي للأعضاء بهذه الإعدادات]]></phrase>
   <phrase title="style_prop_desc.memberHeaderName" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يتم التحكم في تصميم اسم العضو الذي يتم عرض صفحته هنا]]></phrase>
-  <phrase title="style_prop_desc.memberTooltipHeader" addon_id="XF" version_id="2020052" version_string="2.2.0 Release Candidate 2"><![CDATA[باستخدام عناصر التحكم هذه، يتم تنسيق التلميح المنبثق للأعضاء، الذي يظهر عند مرور الماوس فوق أسماء المستخدمين]]></phrase>
+  <phrase title="style_prop_desc.memberTooltipHeader" addon_id="XF" version_id="2020170" version_string="2.2.1"><![CDATA[باستخدام عناصر التحكم هذه، يتم تنسيق التلميح المنبثق للأعضاء، الذي يظهر عند مرور الماوس فوق أسماء المستخدمين]]></phrase>
   <phrase title="style_prop_desc.memberTooltipName" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تنسيق إسم المستخدم في التلميح الذي يتم عرضه]]></phrase>
   <phrase title="style_prop_desc.metaThemeColor" addon_id="XF" version_id="2020034" version_string="2.2.0 Beta 4"><![CDATA[يؤدي هذا إلى تعيين لون النمط المستخدم في تثبيت PWA، بالإضافة إلى لون شريط العنوان في Chrome لنظام Android.]]></phrase>
   <phrase title="style_prop_desc.nodeListDescriptionDisplay" addon_id="XF" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[لتوفير المساحة عمودياً، يمكن إخفاء أوصاف المنتدى حتى يتم تمرير الفأرة فوق عنوان المنتدى، عندها يتم عرضها في شكل تلميح منبثق]]></phrase>
@@ -5252,7 +5255,7 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="this_is_how_you_will_refer_to_property_in_template" addon_id="XF" version_id="2010070" version_string="2.1.0"><![CDATA[هذه هي الطريقة التي سوف تشير إلى الإعداد في القالب.]]></phrase>
   <phrase title="this_is_last_position_for_this_widget_permanently_delete" addon_id="XF" version_id="2010034" version_string="2.1.0 Beta 4"><![CDATA[هذا هو الموضع الأخير لهذه القطعة. احذف القطعة نهائياً.]]></phrase>
   <phrase title="this_is_maximum_number_of_responses_voter_may_select_when_voting" addon_id="XF" version_id="2000270" version_string="2.0.2"><![CDATA[هذا هو الحد الأقصى لعدد الإجابات التي يمكن للمصوت اختيارها عند التصويت.]]></phrase>
-  <phrase title="this_is_name_that_will_be_shown_with_your_messages" addon_id="XF" version_id="2020035" version_string="2.2.0 Beta 5"><![CDATA[هذا هو الإسم الذي ستظهر به في المنتدى و الذي سيتم عرضه مع رسائلك. يمكنك إختيار أي اسم تريده، ولكن بمجرد تعيينه لا يمكنك تغييره بعد ذلك.]]></phrase>
+  <phrase title="this_is_name_that_will_be_shown_with_your_messages" addon_id="XF" version_id="2020170" version_string="2.2.1"><![CDATA[هذا هو الإسم الذي ستظهر به في المنتدى و الذي سيتم عرضه مع رسائلك و محتوياتك. يمكنك إختيار أي اسم تريده.]]></phrase>
   <phrase title="this_is_preview_of_your_button_layout" addon_id="XF" version_id="2020034" version_string="2.2.0 Beta 4"><![CDATA[هذه معاينة لتخطيط الزر الخاص بك]]></phrase>
   <phrase title="this_is_reasonably_strong_password" addon_id="XF" version_id="2010032" version_string="2.1.0 Beta 2"><![CDATA[هذه كلمة مرور قوية إلى حد معقول.]]></phrase>
   <phrase title="this_is_unique_identifier_for_field_cannot_be_changed" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[هذا هو المعرف الفريد لهذا الحقل. لا يمكن تغييره بمجرد تعيينه.]]></phrase>
