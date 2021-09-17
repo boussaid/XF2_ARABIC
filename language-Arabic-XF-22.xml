@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<language title="Arabic" date_format="j F Y" time_format="H:i" currency_format="{value} {symbol}" week_start="0" decimal_point="." thousands_separator="," label_separator=":" comma_separator=", " ellipsis="…" parenthesis_open="(" parenthesis_close=")" language_code="ar-AR" text_direction="RTL" user_selectable="1" addon_id="XF" base_version_id="2020670" export_version="2">
+<language title="Arabic" date_format="j F Y" time_format="H:i" currency_format="{value} {symbol}" week_start="0" decimal_point="." thousands_separator="," label_separator=":" comma_separator=", " ellipsis="…" parenthesis_open="(" parenthesis_close=")" language_code="ar-AR" text_direction="RTL" user_selectable="1" addon_id="XF" base_version_id="2020770" export_version="2">
   <phrase title="1_day_ago" addon_id="XF" version_id="2000052" version_string="2.0.0 Release Candidate 2"><![CDATA[منذ يوم]]></phrase>
   <phrase title="1_month_ago" addon_id="XF" version_id="2000052" version_string="2.0.0 Release Candidate 2"><![CDATA[منذ شهر]]></phrase>
   <phrase title="1_time" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[مرة واحدة]]></phrase>
@@ -425,6 +425,7 @@
   <phrase title="all_content_types" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[كافة أنواع المحتوى]]></phrase>
   <phrase title="all_data_has_now_been_imported_last_step_is_to_finalize_import" addon_id="XF" version_id="2000036" version_string="2.0.0 Beta 6"><![CDATA[تم استيراد جميع البيانات الآن. الخطوة الأخيرة هي الانتهاء من الاستيراد. سيؤدي هذا إلى تشغيل جميع الإجراءات اللازمة لضمان تنظيم البيانات المستوردة كما هو متوقع. وحتى يتم ذلك، قد لا تكون البيانات المستوردة قابلة للعرض بشكل صحيح في جميع الحالات.]]></phrase>
   <phrase title="all_directories_under_x_must_be_writable" addon_id="XF" version_id="2001070" version_string="2.0.10"><![CDATA[يجب أن تكون كافة المجلدات الموجودة ضمن المجلد {directory} قابلة للكتابة. الرجاء تغيير الأذونات على هذه المجلدات لتكون قابلة للكتابة للكل (chmod 0777).]]></phrase>
+  <phrase title="all_files_known_to_be_associated_with_this_add_on_will_be_deleted" addon_id="XF" version_id="2020770" version_string="2.2.7"><![CDATA[سيتم حذف كافة الملفات المرتبطة بهذه الإضافة (ما لم يتم التصريح خلاف ذلك) ، ولكن قد لا يكون من الممكن حذف بعض المجلدات.]]></phrase>
   <phrase title="all_forums" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[كافة المنتديات]]></phrase>
   <phrase title="all_forums_marked_as_read" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تم تعيين كافة المنتديات كمقروءة.]]></phrase>
   <phrase title="all_posts_from_other_threads_will_be_merged_into_this_thread" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[سيتم دمج جميع المشاركات من المواضيع الأخرى في هذا الموضوع.]]></phrase>
@@ -961,6 +962,7 @@ code[/CODE]
   <phrase title="confirm_deletion_of_x_users" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تأكيد حذف {total} مستخدم]]></phrase>
   <phrase title="confirm_disassociation" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تأكيد انهاء الربط]]></phrase>
   <phrase title="confirm_dismiss_notice" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[هل تريد فعلا استبعاد هذه الملاحظة ؟]]></phrase>
+  <phrase title="confirm_file_deletion_for_x" addon_id="XF" version_id="2020770" version_string="2.2.7"><![CDATA[تأكيد حذف ملفات {title}]]></phrase>
   <phrase title="confirm_lifting_of_ban" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تأكيد رفع الحظر]]></phrase>
   <phrase title="confirm_new_password" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تأكيد كلمة المرور الجديدة]]></phrase>
   <phrase title="confirm_password" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تأكيد كلمة المرور]]></phrase>
@@ -1323,6 +1325,7 @@ code[/CODE]
   <phrase title="delete_draft" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[حذف المسودة]]></phrase>
   <phrase title="delete_entire_poll" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[حذف الإستطلاع بالكامل]]></phrase>
   <phrase title="delete_existing_cached_data" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[حذف البيانات الحالية المخزنة مؤقتا]]></phrase>
+  <phrase title="delete_files" addon_id="XF" version_id="2020770" version_string="2.2.7"><![CDATA[حذف الملفات]]></phrase>
   <phrase title="delete_from_this_position" addon_id="XF" version_id="2010270" version_string="2.1.2"><![CDATA[حذف من هذا الموقع]]></phrase>
   <phrase title="delete_index_before_rebuilding" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[حذف الفهرس قبل اعادة البناء]]></phrase>
   <phrase title="delete_poll" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[حذف الإستطلاع]]></phrase>
@@ -1344,6 +1347,7 @@ code[/CODE]
   <phrase title="deleted_by_x" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[حذف بواسطة {name}]]></phrase>
   <phrase title="deleted_member" addon_id="XF" version_id="2000670" version_string="2.0.6"><![CDATA[عضو محذوف]]></phrase>
   <phrase title="deleting" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[حذف]]></phrase>
+  <phrase title="deleting_files_for_add_on" addon_id="XF" version_id="2020770" version_string="2.2.7"><![CDATA[حذف ملفات الإضافة... ({addOnId})]]></phrase>
   <phrase title="deleting_parent_also_deletes_children" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[سيؤدي حذف هذا العنصر أيضا إلى حذف كافة العناصر التابعة له. إذا لم تكن ترغب في حدوث ذلك، قم بتعيين أي عناصر فرعية تابعة لعنصر أصل جديد قبل متابعه هذا الحذف.]]></phrase>
   <phrase title="deletion_type" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[نوع الحذف]]></phrase>
   <phrase title="demote_user" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تنزيل رتبة المستخدم]]></phrase>
@@ -1685,8 +1689,7 @@ code[/CODE]
   <phrase title="existing_thread" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[موضوع موجود]]></phrase>
   <phrase title="expand_log_details" addon_id="XF" version_id="2000170" version_string="2.0.1"><![CDATA[توسيع تفاصيل السجل]]></phrase>
   <phrase title="expanded" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[موسع]]></phrase>
-  <phrase title="expanded_articles_per_page" addon_id="XF" version_id="2020670" version_string="2.2.6"><![CDATA[المقالات الموسعة في كل صفحة]]></phrase>
-  <phrase title="expanded_articles_per_page_explain" addon_id="XF" version_id="2020670" version_string="2.2.6"><![CDATA[يتيح لك هذا تجاوز عدد المقالات المعروضة في كل صفحة عند مشاهدة هذا المنتدى. استخدم 0 لعرض العدد القياسي.]]></phrase>
+  <phrase title="expanded_articles_per_page" addon_id="XF" version_id="2020770" version_string="2.2.7"><![CDATA[المقالات في كل صفحة]]></phrase>
   <phrase title="expected_simple_variable_reference_but_did_not_receive_one" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[توقع مرجع متغير بسيط ولكن لم يتلق أي واحد.]]></phrase>
   <phrase title="expected_valid_expression" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[التعبير الصحيح المتوقع.]]></phrase>
   <phrase title="expire_in_time" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تنتهي في]]></phrase>
@@ -3719,7 +3722,7 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="permission.forum_editAnyPost" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعديل أي مشاركة]]></phrase>
   <phrase title="permission.forum_editOwnPost" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعديل مشاركته]]></phrase>
   <phrase title="permission.forum_editOwnPostTimeLimit" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[المهلة الزمنية لتعديل / حذف مشاركاته (بالدقائق)]]></phrase>
-  <phrase title="permission.forum_editOwnThreadTitle" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تعديل عنوان موضوعه (يتطلب التصريح بتعديل مشاركته)]]></phrase>
+  <phrase title="permission.forum_editOwnThreadTitle" addon_id="XF" version_id="2020770" version_string="2.2.7"><![CDATA[تعديل موضوعه (يتطلب التصريح بتعديل مشاركته)]]></phrase>
   <phrase title="permission.forum_hardDeleteAnyPost" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[حذف نهائي لأي مشاركة]]></phrase>
   <phrase title="permission.forum_hardDeleteAnyThread" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[حذف نهائي لأي موضوع]]></phrase>
   <phrase title="permission.forum_inlineMod" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[استخدام الإدارة المباشرة في المواضيع / المشاركات]]></phrase>
@@ -3894,6 +3897,7 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="please_confirm_that_you_want_to_undelete_following" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يرجى تأكيد أنك تريد إلغاء حذف ما يلي]]></phrase>
   <phrase title="please_confirm_that_you_want_to_uninstall_following_add_on" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الرجاء تأكيد أنك تريد إزالة الوظيفة الإضافية التالية]]></phrase>
   <phrase title="please_confirm_that_you_want_to_upgrade_following_add_on" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الرجاء تأكيد رغبتك في ترقية الوظيفة الإضافية التالية]]></phrase>
+  <phrase title="please_confirm_that_you_wish_to_delete_files_from_following_add_on" addon_id="XF" version_id="2020770" version_string="2.2.7"><![CDATA[يرجى تأكيد رغبتك في حذف الملفات من الإضافة التالية]]></phrase>
   <phrase title="please_confirm_that_you_wish_to_mark_following_conversation_read" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الرجاء تأكيد رغبتك في وضع علامة مقروءة على المحادثة التالية]]></phrase>
   <phrase title="please_confirm_that_you_wish_to_mark_following_conversation_unread" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الرجاء تأكيد رغبتك في وضع علامة غير مقروءة على المحادثة التالية]]></phrase>
   <phrase title="please_confirm_that_you_wish_to_star_following_conversation" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[الرجاء تأكيد رغبتك في تمييز المحادثة التالية بنجمة]]></phrase>
@@ -4535,6 +4539,7 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="restore_dismissed_notices" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[إستعادة الملاحظات المستبعدة]]></phrase>
   <phrase title="restore_dismissed_notices_hint" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[إذا قمت بتحديد هذا الخيار فسيتم إستعادة أي ملاحظة قد قمت باستبعادها سابقاً.]]></phrase>
   <phrase title="restored" addon_id="XF" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[تمت الاستعادة]]></phrase>
+  <phrase title="restrict_search_to_specified_thread" addon_id="XF" version_id="2020770" version_string="2.2.7"><![CDATA[تقييد البحث على موضوع محدد]]></phrase>
   <phrase title="results" addon_id="XF" version_id="2010032" version_string="2.1.0 Beta 2"><![CDATA[النتائج]]></phrase>
   <phrase title="results_only_viewable_after_voting" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[النتائج قابلة للعرض فقط بعد التصويت.]]></phrase>
   <phrase title="retain_content_ids" addon_id="XF" version_id="2000036" version_string="2.0.0 Beta 6"><![CDATA[الاحتفاظ بمعرفات المحتوى]]></phrase>
@@ -4598,6 +4603,7 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="scrolling" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[متحركة]]></phrase>
   <phrase title="search" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[البحث]]></phrase>
   <phrase title="search_by_ip_address" addon_id="XF" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[بحث بواسطة عنوان IP]]></phrase>
+  <phrase title="search_could_not_be_completed_because_number_of_keywords_exceeds_limit_x" addon_id="XF" version_id="2020770" version_string="2.2.7"><![CDATA[يتعذر إكمال البحث لأن عدد الكلمات يتجاوز حد عدد الكلمات الرئيسية المسموح به والذي هو محدد بـ {maxKeywords}.]]></phrase>
   <phrase title="search_could_not_be_completed_because_search_keywords_were_too" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[عملية البحث لم تكتمل، لأن كلمات البحث كانت قصيرة جداً، أو طويلة جداً، أو شائعة جداً.]]></phrase>
   <phrase title="search_engine_index_criteria" addon_id="XF" version_id="2020034" version_string="2.2.0 Beta 4"><![CDATA[معايير فهرسة محرك البحث]]></phrase>
   <phrase title="search_everything" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[البحث في الكل]]></phrase>
@@ -4980,7 +4986,7 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="style_prop_desc.lineHeightDefault" addon_id="XF" version_id="2000070" version_string="2.0.0"><![CDATA[تتحكم هذه القيمة في مقدار التباعد بين أسطر النص]]></phrase>
   <phrase title="style_prop_desc.memberHeader" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تم تصميم هيدر محتوى صفحة الملف الشخصي للأعضاء بهذه الإعدادات]]></phrase>
   <phrase title="style_prop_desc.memberHeaderName" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[يتم التحكم في تصميم اسم العضو الذي يتم عرض صفحته هنا]]></phrase>
-  <phrase title="style_prop_desc.memberTooltipHeader" addon_id="XF" version_id="2020470" version_string="2.2.4"><![CDATA[باستخدام عناصر التحكم هذه، يتم تنسيق التلميح المنبثق للأعضاء، الذي يظهر عند مرور الماوس فوق أسماء المستخدمين]]></phrase>
+  <phrase title="style_prop_desc.memberTooltipHeader" addon_id="XF" version_id="2020770" version_string="2.2.7"><![CDATA[باستخدام عناصر التحكم هذه، يتم تنسيق التلميح المنبثق للأعضاء، الذي يظهر عند مرور الماوس فوق أسماء المستخدمين]]></phrase>
   <phrase title="style_prop_desc.memberTooltipName" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[تنسيق إسم المستخدم في التلميح الذي يتم عرضه]]></phrase>
   <phrase title="style_prop_desc.metaThemeColor" addon_id="XF" version_id="2020034" version_string="2.2.0 Beta 4"><![CDATA[يؤدي هذا إلى تعيين لون النمط المستخدم في تثبيت PWA، بالإضافة إلى لون شريط العنوان في Chrome لنظام Android.]]></phrase>
   <phrase title="style_prop_desc.nodeListDescriptionDisplay" addon_id="XF" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[لتوفير المساحة عمودياً، يمكن إخفاء أوصاف المنتدى حتى يتم تمرير الفأرة فوق عنوان المنتدى، عندها يتم عرضها في شكل تلميح منبثق]]></phrase>
@@ -5527,6 +5533,7 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="type" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[النوع]]></phrase>
   <phrase title="type_of_moderator" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[نوع المشرف]]></phrase>
   <phrase title="unable_edit_master_embed_html_explain" addon_id="XF" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[لا يمكنك تعديل النسخة "الرئيسية" من هذا القالب. لإجراء تغييرات، يجب تعديل القالب المناسب في كل نمط.]]></phrase>
+  <phrase title="unable_to_delete_files_for_x" addon_id="XF" version_id="2020770" version_string="2.2.7"><![CDATA[يتعذر حذف الملفات لـ {title}]]></phrase>
   <phrase title="unanswered" addon_id="XF" version_id="2020034" version_string="2.2.0 Beta 4"><![CDATA[دون إجابة]]></phrase>
   <phrase title="unanswered_threads" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[مواضيع بدون ردود]]></phrase>
   <phrase title="unapprove" addon_id="XF" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[إلغاء الموافقة]]></phrase>
@@ -5805,10 +5812,11 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="utc_0400_asuncion" addon_id="XF" version_id="2010032" version_string="2.1.0 Beta 2"><![CDATA[(UTC-04:00) أسونسيون]]></phrase>
   <phrase title="utc_0400_atlantic_time_canada" addon_id="XF" version_id="2010032" version_string="2.1.0 Beta 2"><![CDATA[(UTC-04:00) توقيت المحيط الأطلنطي (كندا)]]></phrase>
   <phrase title="utc_0400_atlantic_time_goose_bay" addon_id="XF" version_id="2010032" version_string="2.1.0 Beta 2"><![CDATA[(UTC-04:00) توقيت المحيط الأطلنطي (غوس باي)]]></phrase>
+  <phrase title="utc_0400_caracas" addon_id="XF" version_id="2020770" version_string="2.2.7"><![CDATA[(UTC-04:00) كاراكاس]]></phrase>
   <phrase title="utc_0400_cuiaba" addon_id="XF" version_id="2010032" version_string="2.1.0 Beta 2"><![CDATA[(UTC-04:00) كويابا]]></phrase>
   <phrase title="utc_0400_georgetown" addon_id="XF" version_id="2010032" version_string="2.1.0 Beta 2"><![CDATA[(UTC-04:00) جورج تاون ، لاباز ، ماناوس ، سان خوان]]></phrase>
   <phrase title="utc_0400_santiago" addon_id="XF" version_id="2010032" version_string="2.1.0 Beta 2"><![CDATA[(UTC-04:00) سانتياغو]]></phrase>
-  <phrase title="utc_0430_caracas" addon_id="XF" version_id="2010032" version_string="2.1.0 Beta 2"><![CDATA[(UTC-04:30) كاراكاس]]></phrase>
+  <phrase title="utc_0430_caracas" addon_id="XF" version_id="2020770" version_string="2.2.7"><![CDATA[(UTC-04:30) كاراكاس]]></phrase>
   <phrase title="utc_0500_bogota" addon_id="XF" version_id="2010032" version_string="2.1.0 Beta 2"><![CDATA[(UTC-05:00) بوغوتا ، ليما ، كيتو]]></phrase>
   <phrase title="utc_0500_cuba" addon_id="XF" version_id="2010032" version_string="2.1.0 Beta 2"><![CDATA[(UTC-05:00) كوبا]]></phrase>
   <phrase title="utc_0500_eastern_time" addon_id="XF" version_id="2010032" version_string="2.1.0 Beta 2"><![CDATA[(UTC-05:00) توقيت الشرق (الولايات المتحدة وكندا)]]></phrase>
@@ -5922,6 +5930,7 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="view_count_between" addon_id="XF" version_id="2020036" version_string="2.2.0 Beta 6"><![CDATA[مجموع المشاهدات بين]]></phrase>
   <phrase title="view_custom_changes" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[مشاهدة التغييرات المخصصة]]></phrase>
   <phrase title="view_expired_upgrades" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[عرض الترقيات المنتهية]]></phrase>
+  <phrase title="view_files_to_be_deleted" addon_id="XF" version_id="2020770" version_string="2.2.7"><![CDATA[عرض الملفات التي سيتم حذفها]]></phrase>
   <phrase title="view_full_article" addon_id="XF" version_id="2020034" version_string="2.2.0 Beta 4"><![CDATA[مشاهدة المقال كاملا]]></phrase>
   <phrase title="view_full_key" addon_id="XF" version_id="2010032" version_string="2.1.0 Beta 2"><![CDATA[عرض المفتاح كاملاً]]></phrase>
   <phrase title="view_full_list" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[عرض القائمة الكاملة]]></phrase>
@@ -6198,11 +6207,6 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="x_years" addon_id="XF" version_id="2000570" version_string="2.0.5"><![CDATA[{years} سنوات]]></phrase>
   <phrase title="xenforo_importers_now_installed_as_separate_add_on_downloadable_from" addon_id="XF" version_id="2000370" version_string="2.0.3"><![CDATA[يتم الآن تثبيت مستوردات XenForo كإضافة منفصلة ، يمكن تنزيلها من <a href="https://xenforo.com/customers" target="_blank">منطقة العميل</a> الخاصة بك.]]></phrase>
   <phrase title="xenforo_version_x_available_for_installation" addon_id="XF" version_id="2020670" version_string="2.2.6"><![CDATA[إصدار XenForo {version} متاح للتثبيت الآن.]]></phrase>
-  <phrase title="xenforo_x_available_explain" addon_id="XF" version_id="2020670" version_string="2.2.6"><![CDATA[إصدار XenForo {version} متاح الآن للتثبيت.<br />
-<br />
-يمكنك الترقية إلى هذا الإصدار من داخل لوحة التحكم الخاصة بك. إذا تابعت، سيتم تنزيل الإصدار الجديد ونسخ الملفات وتطبيق الترقية.<br />
-<br />
-لاحظ أنه إذا كان من المستحسن ترقية CLI ، فستتاح لك فرصة لاستخدام ذلك بدلاً من ترقية الويب.]]></phrase>
   <phrase title="xenforo_x_is_now_available" addon_id="XF" version_id="2010032" version_string="2.1.0 Beta 2"><![CDATA[إصدار XenForo {version} متاح الآن.]]></phrase>
   <phrase title="xf_one_click_upgrade_significant_explain" addon_id="XF" version_id="2020670" version_string="2.2.6"><![CDATA[هذه ترقية مهمة تضيف ميزات جديدة وتحتوي على العديد من التغييرات. قد يلزم تحديث الستايلات والإضافات بعد اكتمال الترقية.<br />
 <br />
@@ -6221,7 +6225,7 @@ bounce+123abc+user=domain.com@example.com.]]></phrase>
   <phrase title="you_already_following_this_member" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[أنت تتابع هذا العضو بالفعل.]]></phrase>
   <phrase title="you_already_ignoring_this_member" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[أنت بالفعل تتجاهل هذا العضو.]]></phrase>
   <phrase title="you_already_logged_in" addon_id="XF" version_id="2000031" version_string="2.0.0 Beta 1"><![CDATA[تم تسجيل دخولك بالفعل. الرجاء النقر <a href="{link}">هنا</a> للعودة إلى قائمة المنتدى.]]></phrase>
-  <phrase title="you_appear_to_have_lost_connection_internet_check_your_connection" addon_id="XF" version_id="2020670" version_string="2.2.6"><![CDATA[يبدو أنك فقدت الاتصال بالإنترنت. تحقق من اتصالك ثم <a href="javascript:window.location.reload();">أعد تحميل الصفحة</a>.]]></phrase>
+  <phrase title="you_appear_to_have_lost_connection_internet_check_your_connection" addon_id="XF" version_id="2020770" version_string="2.2.7"><![CDATA[يبدو أنك فقدت الاتصال بالإنترنت. تحقق من الاتصال ثم <a href="javascript:window.location.reload();">أعد تحميل الصفحة</a>.]]></phrase>
   <phrase title="you_are_ignoring_content_by_this_member" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[أنت تتجاهل المحتوى من قبل هذا العضو.]]></phrase>
   <phrase title="you_are_no_longer_able_to_reply_thread_x" addon_id="XF" version_id="2000010" version_string="2.0.0 Alpha"><![CDATA[لم تعد قادراً على الرد في الموضوع {title}.]]></phrase>
   <phrase title="you_are_using_out_of_date_browser_upgrade" addon_id="XF" version_id="2020032" version_string="2.2.0 Beta 2"><![CDATA[أنت تستخدم أحد المتصفحات القديمة. قد لا يتم عرض هذا الموقع أو المواقع الأخرى بشكل صحيح.<br />يجب عليك ترقية متصفحك أو استخدام <a href="https://www.google.com/chrome/" target="_blank" rel="noopener">أحد المتصفحات البديلة</a>.]]></phrase>
