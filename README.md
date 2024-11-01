@@ -1,7 +1,7 @@
 # Arabic translation Xenforo 2.X
 
-Based on Xenforo 2.3.3<br />
-Relased: 04/09/2024.
+Based on Xenforo 2.3.4<br />
+Relased: 01/11/2024.
 
 >Translated by [BOUSSAID Mustafa](https://github.com/boussaid), for official translations: [XenForo community](https://xenforo.com/community/resources/xenforo-2-x-arabic-translation.5630/)
 
